@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Operation Independence Leaderboard</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #f6f3ea;
+        color: #172033;
+        --navy: #172b4d;
+        --blue: #234f8f;
+        --red: #aa2d2a;
+        --cream: #fffdf6;
+        --line: #d9d5c8;
+        --muted: #667085;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background:
+          linear-gradient(180deg, rgba(35, 79, 143, 0.12), transparent 280px),
+          var(--cream);
+      }
+
+      main {
+        width: min(1180px, calc(100% - 28px));
+        margin: 0 auto;
+        padding: 28px 0 48px;
+      }
+
+      header {
+        border-bottom: 4px solid var(--red);
+        padding: 24px 0 18px;
+        margin-bottom: 22px;
+      }
+
+      h1,
+      h2 {
+        margin: 0;
+      }
+
+      h1 {
+        color: var(--navy);
+        font-size: clamp(2.2rem, 7vw, 4.8rem);
+        line-height: 0.95;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        color: var(--navy);
+        font-size: 1.35rem;
+        margin: 28px 0 12px;
+      }
+
+      .subtitle {
+        margin: 8px 0 0;
+        color: var(--blue);
+        font-size: 1.15rem;
+        font-weight: 700;
+      }
+
+      .date-line,
+      .status {
+        margin: 6px 0 0;
+        color: var(--muted);
+      }
+
+      .summary-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 12px;
+        margin: 20px 0 26px;
+      }
+
+      .summary-card {
+        background: #ffffff;
+        border: 1px solid var(--line);
+        border-top: 4px solid var(--blue);
+        border-radius: 8px;
+        padding: 14px;
+      }
+
+      .summary-label {
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .summary-value {
+        display: block;
+        margin-top: 8px;
+        color: var(--navy);
+        font-size: 1.55rem;
+        font-weight: 800;
+        line-height: 1.1;
+      }
+
+      .table-wrap {
+        overflow-x: auto;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #ffffff;
+      }
+
+      table {
+        width: 100%;
+        min-width: 920px;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 11px 10px;
+        border-bottom: 1px solid #ece8dd;
+        text-align: left;
+        vertical-align: top;
+        white-space: nowrap;
+      }
+
+      th {
+        background: var(--navy);
+        color: #ffffff;
+        font-size: 0.78rem;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      tbody tr:nth-child(even) {
+        background: #fbfaf5;
+      }
+
+      .rank {
+        color: var(--red);
+        font-weight: 800;
+      }
+
+      .points {
+        color: var(--navy);
+        font-weight: 800;
+      }
+
+      .pax-button {
+        appearance: none;
+        border: 0;
+        background: transparent;
+        color: var(--navy);
+        cursor: pointer;
+        font: inherit;
+        font-weight: 800;
+        padding: 0;
+        text-align: left;
+        text-decoration: underline;
+        text-decoration-color: rgba(35, 79, 143, 0.35);
+        text-underline-offset: 3px;
+      }
+
+      .pill {
+        display: inline-block;
+        min-width: 34px;
+        border-radius: 999px;
+        background: #edf2f8;
+        color: var(--navy);
+        padding: 3px 8px;
+        text-align: center;
+        font-weight: 700;
+      }
+
+      .yes {
+        color: #14532d;
+        font-weight: 800;
+      }
+
+      .no {
+        color: var(--muted);
+      }
+
+      .flags {
+        max-width: 220px;
+        color: var(--muted);
+        font-size: 0.78rem;
+        line-height: 1.3;
+        white-space: normal;
+      }
+
+      .empty {
+        margin: 0;
+        border: 1px dashed var(--line);
+        border-radius: 8px;
+        background: #ffffff;
+        color: var(--muted);
+        padding: 14px;
+      }
+
+      .claim-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .claim-list li {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #ffffff;
+        padding: 12px;
+        margin-bottom: 8px;
+      }
+
+      details {
+        margin-top: 30px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #ffffff;
+        padding: 14px 16px;
+      }
+
+      summary {
+        color: var(--navy);
+        cursor: pointer;
+        font-size: 1.15rem;
+        font-weight: 800;
+      }
+
+      .legend-list {
+        margin: 14px 0 0;
+        padding-left: 20px;
+        color: #344054;
+        line-height: 1.55;
+      }
+
+      dialog {
+        width: min(760px, calc(100% - 24px));
+        max-height: min(760px, calc(100% - 24px));
+        border: 0;
+        border-radius: 10px;
+        padding: 0;
+        box-shadow: 0 24px 80px rgba(23, 43, 77, 0.35);
+      }
+
+      dialog::backdrop {
+        background: rgba(23, 32, 51, 0.55);
+      }
+
+      .modal-panel {
+        background: #ffffff;
+        color: #172033;
+      }
+
+      .modal-header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 16px;
+        border-bottom: 1px solid var(--line);
+        padding: 18px;
+      }
+
+      .modal-title {
+        margin: 0;
+        color: var(--navy);
+        font-size: 1.5rem;
+      }
+
+      .modal-subtitle {
+        margin: 4px 0 0;
+        color: var(--muted);
+      }
+
+      .close-button {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #ffffff;
+        cursor: pointer;
+        font-size: 1.2rem;
+        line-height: 1;
+        padding: 8px 10px;
+      }
+
+      .modal-body {
+        padding: 18px;
+      }
+
+      .stat-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 10px;
+        margin-bottom: 16px;
+      }
+
+      .stat {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 10px;
+      }
+
+      .stat span {
+        display: block;
+        color: var(--muted);
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .stat strong {
+        display: block;
+        margin-top: 4px;
+        color: var(--navy);
+      }
+
+      .breakdown-table {
+        min-width: 0;
+      }
+
+      .breakdown-table td,
+      .breakdown-table th {
+        white-space: normal;
+      }
+
+      @media (max-width: 760px) {
+        main {
+          width: min(100% - 20px, 1180px);
+          padding-top: 16px;
+        }
+
+        header {
+          padding-top: 16px;
+        }
+
+        .summary-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .stat-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 460px) {
+        .summary-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Operation Independence</h1>
+        <p class="subtitle">F3 Ironplains Challenge</p>
+        <p class="date-line">July 1-31, 2026</p>
+        <p id="status" class="status">Loading leaderboard...</p>
+      </header>
+
+      <section class="summary-grid" aria-label="Leaderboard summary">
+        <div class="summary-card">
+          <span class="summary-label">Total PAX</span>
+          <span id="summary-pax" class="summary-value">-</span>
+        </div>
+        <div class="summary-card">
+          <span class="summary-label">AO Teams</span>
+          <span id="summary-teams" class="summary-value">-</span>
+        </div>
+        <div class="summary-card">
+          <span class="summary-label">Disputed Claims</span>
+          <span id="summary-disputes" class="summary-value">-</span>
+        </div>
+        <div class="summary-card">
+          <span class="summary-label">Current Leader</span>
+          <span id="summary-leader" class="summary-value">-</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Individual Leaderboard</h2>
+        <div class="table-wrap">
+          <table aria-label="Operation Independence individual leaderboard">
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>PAX</th>
+                <th>Points</th>
+                <th>Posts</th>
+                <th>Qs</th>
+                <th>Downrange</th>
+                <th>AOs Visited</th>
+                <th>Passport</th>
+                <th>Traveler</th>
+                <th>Manual</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody id="leaderboard-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2>AO Teams</h2>
+        <div id="teams-content"></div>
+      </section>
+
+      <section>
+        <h2>Disputed Claims</h2>
+        <div id="claims-content"></div>
+      </section>
+
+      <details>
+        <summary>How scoring works</summary>
+        <ul class="legend-list">
+          <li>Ironplains post: 1 point</li>
+          <li>Ironplains Q: +5 points</li>
+          <li>Downrange post: 10 points</li>
+          <li>Downrange Q: +20 points</li>
+          <li>Different established Ironplains AO after your first: +5 points each</li>
+          <li>Ironplains Passport, post at every listed Ironplains AO: 25 points</li>
+          <li>Traveler Bonus, post at 5 different AOs outside your normal AO: 25 points</li>
+          <li>Kotter Returns 30+ Days: automatically detected when possible.</li>
+          <li>
+            Manual claims include VQ, FNG, Kotter three-post follow-up, service, Brotherhood Builder,
+            Shield Lock, Mentor a Brother, Iron Sharpens Iron, Weasel Shaker, and Lazarus Award.
+          </li>
+        </ul>
+      </details>
+
+      <dialog id="pax-dialog">
+        <div class="modal-panel">
+          <div class="modal-header">
+            <div>
+              <h2 id="modal-title" class="modal-title">PAX details</h2>
+              <p id="modal-subtitle" class="modal-subtitle"></p>
+            </div>
+            <button id="modal-close" class="close-button" type="button" aria-label="Close details">x</button>
+          </div>
+          <div id="modal-body" class="modal-body"></div>
+        </div>
+      </dialog>
+    </main>
+
+    <script>
+      function escapeHtml(value) {
+        return String(value ?? "").replace(/[&<>"']/g, (char) => {
+          return {
+            "&": "&amp;",
+            "<": "&lt;",
+            ">": "&gt;",
+            '"': "&quot;",
+            "'": "&#39;",
+          }[char];
+        });
+      }
+
+      function formatDateTime(value) {
+        if (!value) return "Last updated unknown";
+        const date = new Date(value);
+        if (Number.isNaN(date.getTime())) return `Last updated ${value}`;
+        return `Last updated ${date.toLocaleString(undefined, {
+          dateStyle: "medium",
+          timeStyle: "short",
+        })}`;
+      }
+
+      function yesNo(value) {
+        return value ? '<span class="yes">Yes</span>' : '<span class="no">No</span>';
+      }
+
+      function getPublicNotes(flags) {
+        return (flags ?? []).filter((flag) => {
+          return flag !== "normal AO inferred from July attendance";
+        });
+      }
+
+      function renderNotes(flags) {
+        return getPublicNotes(flags).join(", ");
+      }
+
+      function renderSummary(data) {
+        const entries = data.leaderboard ?? [];
+        const teams = data.teams ?? [];
+        const disputes = data.disputedClaims ?? [];
+        const leader = entries[0];
+
+        document.getElementById("summary-pax").textContent = entries.length;
+        document.getElementById("summary-teams").textContent = teams.length;
+        document.getElementById("summary-disputes").textContent = disputes.length;
+        document.getElementById("summary-leader").textContent = leader
+          ? `${leader.displayName} (${leader.totalPoints})`
+          : "-";
+      }
+
+      function renderLeaderboard(entries) {
+        const body = document.getElementById("leaderboard-body");
+        body.innerHTML = "";
+
+        for (const [index, entry] of entries.entries()) {
+          const row = document.createElement("tr");
+          const scoring = entry.scoring ?? {};
+          const downrange = `${scoring.outsideIronplainsPosts ?? 0} posts / ${scoring.outsideIronplainsQs ?? 0} Qs`;
+          const notes = getPublicNotes(entry.flags).join(", ");
+
+          row.innerHTML = `
+            <td class="rank">${index + 1}</td>
+            <td>
+              <button class="pax-button" type="button" data-user-id="${entry.userId}">
+                ${escapeHtml(entry.displayName)}
+              </button>
+            </td>
+            <td class="points">${entry.totalPoints ?? 0}</td>
+            <td><span class="pill">${scoring.ironplainsPosts ?? 0}</span></td>
+            <td><span class="pill">${scoring.ironplainsQs ?? 0}</span></td>
+            <td>${escapeHtml(downrange)}</td>
+            <td>${scoring.differentIronplainsAos ?? 0}</td>
+            <td>${yesNo(scoring.ironplainsPassport)}</td>
+            <td>${yesNo(scoring.travelerBonus)}</td>
+            <td>${scoring.manualClaimPoints ?? 0}</td>
+            <td class="flags">${escapeHtml(notes)}</td>
+          `;
+          body.append(row);
+        }
+      }
+
+      function getBreakdownSum(entry) {
+        return (entry.pointBreakdown ?? []).reduce((sum, item) => sum + (item.points ?? 0), 0);
+      }
+
+      function openPaxDialog(entry) {
+        const dialog = document.getElementById("pax-dialog");
+        const title = document.getElementById("modal-title");
+        const subtitle = document.getElementById("modal-subtitle");
+        const body = document.getElementById("modal-body");
+        const scoring = entry.scoring ?? {};
+        const notes = renderNotes(entry.flags);
+        const normalAo = entry.normalAoName ?? "Unassigned";
+        const breakdown = entry.pointBreakdown ?? [];
+
+        title.textContent = entry.displayName;
+        subtitle.textContent = `${entry.totalPoints ?? 0} points | Normal AO: ${normalAo}`;
+        body.innerHTML = `
+          <div class="stat-grid">
+            <div class="stat"><span>Posts</span><strong>${scoring.ironplainsPosts ?? 0}</strong></div>
+            <div class="stat"><span>Qs</span><strong>${scoring.ironplainsQs ?? 0}</strong></div>
+            <div class="stat"><span>Downrange</span><strong>${scoring.outsideIronplainsPosts ?? 0} posts / ${scoring.outsideIronplainsQs ?? 0} Qs</strong></div>
+            <div class="stat"><span>AOs Visited</span><strong>${scoring.differentIronplainsAos ?? 0}</strong></div>
+          </div>
+          <div class="table-wrap">
+            <table class="breakdown-table" aria-label="Point breakdown for ${escapeHtml(entry.displayName)}">
+              <thead>
+                <tr>
+                  <th>Item</th>
+                  <th>Details</th>
+                  <th>Points</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${
+                  breakdown.length
+                    ? breakdown
+                        .map(
+                          (item) => `
+                            <tr>
+                              <td>${escapeHtml(item.label)}</td>
+                              <td>${escapeHtml(item.details ?? "")}</td>
+                              <td class="points">${item.points ?? 0}</td>
+                            </tr>
+                          `,
+                        )
+                        .join("")
+                    : '<tr><td colspan="3">No point breakdown available.</td></tr>'
+                }
+              </tbody>
+            </table>
+          </div>
+          <p class="status">Breakdown total: ${getBreakdownSum(entry)} points</p>
+          ${notes ? `<p class="flags"><strong>Notes:</strong> ${escapeHtml(notes)}</p>` : ""}
+        `;
+
+        dialog.showModal();
+      }
+
+      function renderTeams(teams) {
+        const container = document.getElementById("teams-content");
+
+        if (!teams.length) {
+          container.innerHTML = '<p class="empty">No AO teams yet.</p>';
+          return;
+        }
+
+        container.innerHTML = `
+          <div class="table-wrap">
+            <table aria-label="Operation Independence AO team leaderboard">
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Team</th>
+                  <th>Points</th>
+                  <th>Members</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${teams
+                  .map(
+                    (team, index) => `
+                      <tr>
+                        <td class="rank">${index + 1}</td>
+                        <td>${escapeHtml(team.teamName)}</td>
+                        <td class="points">${team.totalPoints ?? 0}</td>
+                        <td>${(team.memberUserIds ?? []).length}</td>
+                      </tr>
+                    `,
+                  )
+                  .join("")}
+              </tbody>
+            </table>
+          </div>
+        `;
+      }
+
+      function renderClaims(claims) {
+        const container = document.getElementById("claims-content");
+
+        if (!claims.length) {
+          container.innerHTML = '<p class="empty">No disputed claims.</p>';
+          return;
+        }
+
+        container.innerHTML = `
+          <ul class="claim-list">
+            ${claims
+              .map(
+                (claim) => `
+                  <li>
+                    <strong>${escapeHtml(claim.displayName)}</strong>
+                    claimed ${escapeHtml(claim.type)}
+                    (${escapeHtml(claim.claimedCount)}).
+                    ${claim.correctionNote ? `<span class="flags">${escapeHtml(claim.correctionNote)}</span>` : ""}
+                  </li>
+                `,
+              )
+              .join("")}
+          </ul>
+        `;
+      }
+
+      async function loadLeaderboard() {
+        const status = document.getElementById("status");
+
+        try {
+          const response = await fetch("./operation-independence-2026.json", { cache: "no-store" });
+          if (!response.ok) {
+            throw new Error(`Failed to load leaderboard JSON: ${response.status}`);
+          }
+
+          const data = await response.json();
+
+          status.textContent = formatDateTime(data.generatedAt);
+          renderSummary(data);
+          renderLeaderboard(data.leaderboard ?? []);
+          renderTeams(data.teams ?? []);
+          renderClaims(data.disputedClaims ?? []);
+
+          document.getElementById("leaderboard-body").addEventListener("click", (event) => {
+            const button = event.target.closest(".pax-button");
+            if (!button) return;
+            const userId = Number(button.dataset.userId);
+            const entry = (data.leaderboard ?? []).find((item) => item.userId === userId);
+            if (entry) {
+              openPaxDialog(entry);
+            }
+          });
+        } catch (error) {
+          status.textContent = error instanceof Error ? error.message : "Failed to load leaderboard.";
+        }
+      }
+
+      loadLeaderboard();
+
+      document.getElementById("modal-close").addEventListener("click", () => {
+        document.getElementById("pax-dialog").close();
+      });
+
+      document.getElementById("pax-dialog").addEventListener("click", (event) => {
+        if (event.target === event.currentTarget) {
+          event.currentTarget.close();
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1166 @@
+{
+  "generatedAt": "2026-07-02T21:16:37.693Z",
+  "challenge": {
+    "name": "Operation Independence",
+    "subtitle": "F3 Ironplains Challenge",
+    "year": 2026,
+    "startsOn": "2026-07-01",
+    "endsOn": "2026-07-31",
+    "regionOrgId": 49621
+  },
+  "leaderboard": [
+    {
+      "userId": 85109,
+      "displayName": "Hot Lips",
+      "teamIds": [],
+      "normalAoOrgId": 49951,
+      "normalAoName": "Firebox",
+      "totalPoints": 18,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 3,
+          "details": "3 posts x 1 point"
+        },
+        {
+          "label": "Ironplains Qs",
+          "points": 10,
+          "details": "2 Qs x 5 points"
+        },
+        {
+          "label": "Different Ironplains AOs",
+          "points": 5,
+          "details": "2 AOs visited. First AO is included, each additional AO is +5."
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 3,
+        "ironplainsQs": 2,
+        "differentIronplainsAos": 2,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance"
+      ]
+    },
+    {
+      "userId": 23397,
+      "displayName": "Nuke",
+      "teamIds": [],
+      "normalAoOrgId": 42990,
+      "normalAoName": "Prost",
+      "totalPoints": 13,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 3,
+          "details": "3 posts x 1 point"
+        },
+        {
+          "label": "Ironplains Qs",
+          "points": 5,
+          "details": "1 Qs x 5 points"
+        },
+        {
+          "label": "Different Ironplains AOs",
+          "points": 5,
+          "details": "2 AOs visited. First AO is included, each additional AO is +5."
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 3,
+        "ironplainsQs": 1,
+        "differentIronplainsAos": 2,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": []
+    },
+    {
+      "userId": 85045,
+      "displayName": "bourbon street",
+      "teamIds": [],
+      "normalAoOrgId": 49774,
+      "normalAoName": "Pumpkin Patch",
+      "totalPoints": 11,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Kotter Returns 30+ Days",
+          "points": 10,
+          "details": "70 days absent"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 10
+      },
+      "flags": [
+        "normal AO inferred from July attendance",
+        "automatic Kotter return: 70 days absent"
+      ]
+    },
+    {
+      "userId": 70874,
+      "displayName": "Angel Soft",
+      "teamIds": [],
+      "normalAoOrgId": 49951,
+      "normalAoName": "Firebox",
+      "totalPoints": 8,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 3,
+          "details": "3 posts x 1 point"
+        },
+        {
+          "label": "Different Ironplains AOs",
+          "points": 5,
+          "details": "2 AOs visited. First AO is included, each additional AO is +5."
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 3,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 2,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance"
+      ]
+    },
+    {
+      "userId": 85051,
+      "displayName": "Dirty Couch",
+      "teamIds": [],
+      "normalAoOrgId": 49774,
+      "normalAoName": "Pumpkin Patch",
+      "totalPoints": 8,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 3,
+          "details": "3 posts x 1 point"
+        },
+        {
+          "label": "Different Ironplains AOs",
+          "points": 5,
+          "details": "2 AOs visited. First AO is included, each additional AO is +5."
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 3,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 2,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": []
+    },
+    {
+      "userId": 85113,
+      "displayName": "Beethoven",
+      "teamIds": [],
+      "normalAoOrgId": 49774,
+      "normalAoName": "Pumpkin Patch",
+      "totalPoints": 7,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 2,
+          "details": "2 posts x 1 point"
+        },
+        {
+          "label": "Different Ironplains AOs",
+          "points": 5,
+          "details": "2 AOs visited. First AO is included, each additional AO is +5."
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 2,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 2,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance"
+      ]
+    },
+    {
+      "userId": 115501,
+      "displayName": "cuban",
+      "teamIds": [],
+      "normalAoOrgId": 49521,
+      "normalAoName": "The Sandlot",
+      "totalPoints": 7,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 2,
+          "details": "2 posts x 1 point"
+        },
+        {
+          "label": "Different Ironplains AOs",
+          "points": 5,
+          "details": "2 AOs visited. First AO is included, each additional AO is +5."
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 2,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 2,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance"
+      ]
+    },
+    {
+      "userId": 85108,
+      "displayName": "Diaper Dandy",
+      "teamIds": [],
+      "normalAoOrgId": 49774,
+      "normalAoName": "Pumpkin Patch",
+      "totalPoints": 7,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 2,
+          "details": "2 posts x 1 point"
+        },
+        {
+          "label": "Different Ironplains AOs",
+          "points": 5,
+          "details": "2 AOs visited. First AO is included, each additional AO is +5."
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 2,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 2,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance"
+      ]
+    },
+    {
+      "userId": 85095,
+      "displayName": "Mr. Belding",
+      "teamIds": [],
+      "normalAoOrgId": 49774,
+      "normalAoName": "Pumpkin Patch",
+      "totalPoints": 7,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 2,
+          "details": "2 posts x 1 point"
+        },
+        {
+          "label": "Different Ironplains AOs",
+          "points": 5,
+          "details": "2 AOs visited. First AO is included, each additional AO is +5."
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 2,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 2,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": []
+    },
+    {
+      "userId": 30393,
+      "displayName": "NIPS",
+      "teamIds": [],
+      "normalAoOrgId": 46316,
+      "normalAoName": "The Pitch",
+      "totalPoints": 7,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 2,
+          "details": "2 posts x 1 point"
+        },
+        {
+          "label": "Different Ironplains AOs",
+          "points": 5,
+          "details": "2 AOs visited. First AO is included, each additional AO is +5."
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 2,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 2,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": []
+    },
+    {
+      "userId": 85059,
+      "displayName": "Science Bear",
+      "teamIds": [],
+      "normalAoOrgId": 49777,
+      "normalAoName": "Little Egypt",
+      "totalPoints": 7,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 2,
+          "details": "2 posts x 1 point"
+        },
+        {
+          "label": "Different Ironplains AOs",
+          "points": 5,
+          "details": "2 AOs visited. First AO is included, each additional AO is +5."
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 2,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 2,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": []
+    },
+    {
+      "userId": 19874,
+      "displayName": "Metal Miyagi",
+      "teamIds": [],
+      "normalAoOrgId": 49777,
+      "normalAoName": "Little Egypt",
+      "totalPoints": 6,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Ironplains Qs",
+          "points": 5,
+          "details": "1 Qs x 5 points"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 1,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": []
+    },
+    {
+      "userId": 85057,
+      "displayName": "Sebastian",
+      "teamIds": [],
+      "normalAoOrgId": 46316,
+      "normalAoName": "The Pitch",
+      "totalPoints": 6,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Ironplains Qs",
+          "points": 5,
+          "details": "1 Qs x 5 points"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 1,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": []
+    },
+    {
+      "userId": 85110,
+      "displayName": "Smog",
+      "teamIds": [],
+      "normalAoOrgId": 50424,
+      "normalAoName": "The Silo",
+      "totalPoints": 6,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Ironplains Qs",
+          "points": 5,
+          "details": "1 Qs x 5 points"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 1,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance"
+      ]
+    },
+    {
+      "userId": 125375,
+      "displayName": "Big Al",
+      "teamIds": [],
+      "normalAoOrgId": 49774,
+      "normalAoName": "Pumpkin Patch",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance"
+      ]
+    },
+    {
+      "userId": 85094,
+      "displayName": "Cheese Curd",
+      "teamIds": [],
+      "normalAoOrgId": 49774,
+      "normalAoName": "Pumpkin Patch",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": []
+    },
+    {
+      "userId": 85141,
+      "displayName": "Dial Up",
+      "teamIds": [],
+      "normalAoOrgId": 49774,
+      "normalAoName": "Pumpkin Patch",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance"
+      ]
+    },
+    {
+      "userId": 49507,
+      "displayName": "Fingers",
+      "teamIds": [],
+      "normalAoOrgId": 49774,
+      "normalAoName": "Pumpkin Patch",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": []
+    },
+    {
+      "userId": 1218,
+      "displayName": "Fuzzy",
+      "teamIds": [],
+      "normalAoOrgId": 49777,
+      "normalAoName": "Little Egypt",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": []
+    },
+    {
+      "userId": 85137,
+      "displayName": "Grounded",
+      "teamIds": [],
+      "normalAoOrgId": 49774,
+      "normalAoName": "Pumpkin Patch",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance"
+      ]
+    },
+    {
+      "userId": 124598,
+      "displayName": "Heidi",
+      "teamIds": [],
+      "normalAoOrgId": 50424,
+      "normalAoName": "The Silo",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance"
+      ]
+    },
+    {
+      "userId": 12039,
+      "displayName": "Julie the Cat",
+      "teamIds": [],
+      "normalAoOrgId": 42990,
+      "normalAoName": "Prost",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "home AO suggestion had tied AOs"
+      ]
+    },
+    {
+      "userId": 85023,
+      "displayName": "Kaa",
+      "teamIds": [],
+      "normalAoOrgId": 49521,
+      "normalAoName": "The Sandlot",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "home AO suggestion had tied AOs"
+      ]
+    },
+    {
+      "userId": 85058,
+      "displayName": "Mac_Chappell",
+      "teamIds": [],
+      "normalAoOrgId": 49777,
+      "normalAoName": "Little Egypt",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": []
+    },
+    {
+      "userId": 112034,
+      "displayName": "Magnum",
+      "teamIds": [],
+      "normalAoOrgId": 49774,
+      "normalAoName": "Pumpkin Patch",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance"
+      ]
+    },
+    {
+      "userId": 85107,
+      "displayName": "Mater",
+      "teamIds": [],
+      "normalAoOrgId": 49774,
+      "normalAoName": "Pumpkin Patch",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance"
+      ]
+    },
+    {
+      "userId": 85035,
+      "displayName": "Mr. Rogers",
+      "teamIds": [],
+      "normalAoOrgId": 49774,
+      "normalAoName": "Pumpkin Patch",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance"
+      ]
+    },
+    {
+      "userId": 115623,
+      "displayName": "Nicolas Jacobs",
+      "teamIds": [],
+      "normalAoOrgId": 49774,
+      "normalAoName": "Pumpkin Patch",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance"
+      ]
+    },
+    {
+      "userId": 23172,
+      "displayName": "O'Donk",
+      "teamIds": [],
+      "normalAoOrgId": 46316,
+      "normalAoName": "The Pitch",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": []
+    },
+    {
+      "userId": 85069,
+      "displayName": "Off Center",
+      "teamIds": [],
+      "normalAoOrgId": 49774,
+      "normalAoName": "Pumpkin Patch",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": []
+    },
+    {
+      "userId": 12193,
+      "displayName": "Plankton",
+      "teamIds": [],
+      "normalAoOrgId": 49777,
+      "normalAoName": "Little Egypt",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": []
+    },
+    {
+      "userId": 85128,
+      "displayName": "Poppins",
+      "teamIds": [],
+      "normalAoOrgId": 50424,
+      "normalAoName": "The Silo",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance"
+      ]
+    },
+    {
+      "userId": 85143,
+      "displayName": "Swiss Miss",
+      "teamIds": [],
+      "normalAoOrgId": 49521,
+      "normalAoName": "The Sandlot",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance"
+      ]
+    },
+    {
+      "userId": 85105,
+      "displayName": "Tiger Woodwork",
+      "teamIds": [],
+      "normalAoOrgId": 49774,
+      "normalAoName": "Pumpkin Patch",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance"
+      ]
+    },
+    {
+      "userId": 85073,
+      "displayName": "Well Done",
+      "teamIds": [],
+      "normalAoOrgId": 46316,
+      "normalAoName": "The Pitch",
+      "totalPoints": 1,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": []
+    }
+  ],
+  "teams": [
+    {
+      "teamId": "ao-49774",
+      "teamName": "Pumpkin Patch",
+      "totalPoints": 51,
+      "memberUserIds": [
+        49507,
+        85035,
+        85045,
+        85051,
+        85069,
+        85094,
+        85095,
+        85105,
+        85107,
+        85108,
+        85113,
+        85137,
+        85141,
+        112034,
+        115623,
+        125375
+      ]
+    },
+    {
+      "teamId": "ao-49951",
+      "teamName": "Firebox",
+      "totalPoints": 26,
+      "memberUserIds": [
+        70874,
+        85109
+      ]
+    },
+    {
+      "teamId": "ao-49777",
+      "teamName": "Little Egypt",
+      "totalPoints": 16,
+      "memberUserIds": [
+        1218,
+        12193,
+        19874,
+        85058,
+        85059
+      ]
+    },
+    {
+      "teamId": "ao-46316",
+      "teamName": "The Pitch",
+      "totalPoints": 15,
+      "memberUserIds": [
+        23172,
+        30393,
+        85057,
+        85073
+      ]
+    },
+    {
+      "teamId": "ao-42990",
+      "teamName": "Prost",
+      "totalPoints": 14,
+      "memberUserIds": [
+        12039,
+        23397
+      ]
+    },
+    {
+      "teamId": "ao-49521",
+      "teamName": "The Sandlot",
+      "totalPoints": 9,
+      "memberUserIds": [
+        85023,
+        85143,
+        115501
+      ]
+    },
+    {
+      "teamId": "ao-50424",
+      "teamName": "The Silo",
+      "totalPoints": 8,
+      "memberUserIds": [
+        85110,
+        85128,
+        124598
+      ]
+    }
+  ],
+  "disputedClaims": []
+}
