@@ -394,6 +394,7 @@
                 <th>AOs Visited</th>
                 <th>Passport</th>
                 <th>Traveler</th>
+                <th>Bonuses</th>
                 <th>Manual</th>
                 <th>Notes</th>
               </tr>
@@ -416,17 +417,20 @@
       <details>
         <summary>How scoring works</summary>
         <ul class="legend-list">
-          <li>Ironplains post: 1 point</li>
-          <li>Ironplains Q: +5 points</li>
+          <li>Regular post: 1 post point + 2 coffeeteria points = 3 points</li>
+          <li>Q: 5 points only; Qs still count as attendance toward Shield Lock</li>
           <li>Downrange post: 10 points</li>
           <li>Downrange Q: +20 points</li>
           <li>Different established Ironplains AO after your first: +5 points each</li>
           <li>Ironplains Passport, post at every listed Ironplains AO: 25 points</li>
           <li>Traveler Bonus, post at 5 different AOs outside your normal AO: 25 points</li>
+          <li>Shield Lock: 4-7 attended/Qed beatdowns = 10 points; 8+ = 25 points</li>
           <li>Kotter Returns 30+ Days: automatically detected when possible.</li>
+          <li>VQ: automatically awarded when a PAX has his first recorded Q during July.</li>
           <li>
-            Manual claims include VQ, FNG, Kotter three-post follow-up, service, Brotherhood Builder,
-            Shield Lock, Mentor a Brother, Iron Sharpens Iron, Weasel Shaker, and Lazarus Award.
+            Passport, Traveler, Kotter, VQ, Shield Lock, and Lazarus are one-time bonuses.
+            Manual claims include FNG, Kotter three-post follow-up, service, Brotherhood Builder,
+            Mentor a Brother, Iron Sharpens Iron, and Weasel Shaker.
           </li>
         </ul>
       </details>
@@ -520,6 +524,7 @@
             <td>${scoring.differentIronplainsAos ?? 0}</td>
             <td>${yesNo(scoring.ironplainsPassport)}</td>
             <td>${yesNo(scoring.travelerBonus)}</td>
+            <td>${getAutomaticBonusPoints(entry)}</td>
             <td>${scoring.manualClaimPoints ?? 0}</td>
             <td class="flags">${escapeHtml(notes)}</td>
           `;
@@ -529,6 +534,21 @@
 
       function getBreakdownSum(entry) {
         return (entry.pointBreakdown ?? []).reduce((sum, item) => sum + (item.points ?? 0), 0);
+      }
+
+      function getAutomaticBonusPoints(entry) {
+        const bonusLabels = new Set([
+          "Ironplains Passport",
+          "Traveler Bonus",
+          "Shield Lock",
+          "Kotter Returns 30+ Days",
+          "VQ",
+          "Lazarus Award",
+        ]);
+
+        return (entry.pointBreakdown ?? [])
+          .filter((item) => bonusLabels.has(item.label))
+          .reduce((sum, item) => sum + (item.points ?? 0), 0);
       }
 
       function openPaxDialog(entry) {
@@ -547,6 +567,8 @@
           <div class="stat-grid">
             <div class="stat"><span>Posts</span><strong>${scoring.ironplainsPosts ?? 0}</strong></div>
             <div class="stat"><span>Qs</span><strong>${scoring.ironplainsQs ?? 0}</strong></div>
+            <div class="stat"><span>Coffeeteria</span><strong>${scoring.coffeeterias ?? 0}</strong></div>
+            <div class="stat"><span>Shield Lock</span><strong>${scoring.shieldLockBonusPoints ?? 0} pts</strong></div>
             <div class="stat"><span>Downrange</span><strong>${scoring.outsideIronplainsPosts ?? 0} posts / ${scoring.outsideIronplainsQs ?? 0} Qs</strong></div>
             <div class="stat"><span>AOs Visited</span><strong>${scoring.differentIronplainsAos ?? 0}</strong></div>
           </div>

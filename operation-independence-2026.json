@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T14:49:00.831Z",
+  "generatedAt": "2026-07-03T17:00:16.102Z",
   "challenge": {
     "name": "Operation Independence",
     "subtitle": "F3 Ironplains Challenge",
@@ -10,6 +10,57 @@
   },
   "leaderboard": [
     {
+      "userId": 85045,
+      "displayName": "bourbon street",
+      "teamIds": [],
+      "normalAoOrgId": 49774,
+      "normalAoName": "Pumpkin Patch",
+      "totalPoints": 38,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 1,
+          "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
+        },
+        {
+          "label": "Kotter Returns 30+ Days",
+          "points": 10,
+          "details": "70 days absent"
+        },
+        {
+          "label": "Lazarus Award",
+          "points": 25,
+          "details": "Highest Kotter absence."
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 1,
+        "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": true,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance",
+        "automatic Kotter return: 70 days absent",
+        "automatic Lazarus Award"
+      ]
+    },
+    {
       "userId": 85109,
       "displayName": "Hot Lips",
       "teamIds": [],
@@ -19,8 +70,13 @@
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
-          "points": 3,
-          "details": "3 posts x 1 point"
+          "points": 1,
+          "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         },
         {
           "label": "Ironplains Qs",
@@ -34,13 +90,18 @@
         }
       ],
       "scoring": {
-        "ironplainsPosts": 3,
+        "ironplainsPosts": 1,
         "ironplainsQs": 2,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 2,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -54,12 +115,17 @@
       "teamIds": [],
       "normalAoOrgId": 42990,
       "normalAoName": "Prost",
-      "totalPoints": 13,
+      "totalPoints": 16,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
-          "points": 3,
-          "details": "3 posts x 1 point"
+          "points": 2,
+          "details": "2 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 4,
+          "details": "2 non-Q posts x 2 points"
         },
         {
           "label": "Ironplains Qs",
@@ -73,52 +139,22 @@
         }
       ],
       "scoring": {
-        "ironplainsPosts": 3,
+        "ironplainsPosts": 2,
         "ironplainsQs": 1,
+        "coffeeterias": 2,
+        "coffeeteriaPoints": 4,
         "differentIronplainsAos": 2,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
       "flags": []
-    },
-    {
-      "userId": 85045,
-      "displayName": "bourbon street",
-      "teamIds": [],
-      "normalAoOrgId": 49774,
-      "normalAoName": "Pumpkin Patch",
-      "totalPoints": 11,
-      "pointBreakdown": [
-        {
-          "label": "Ironplains posts",
-          "points": 1,
-          "details": "1 posts x 1 point"
-        },
-        {
-          "label": "Kotter Returns 30+ Days",
-          "points": 10,
-          "details": "70 days absent"
-        }
-      ],
-      "scoring": {
-        "ironplainsPosts": 1,
-        "ironplainsQs": 0,
-        "differentIronplainsAos": 1,
-        "outsideIronplainsPosts": 0,
-        "outsideIronplainsQs": 0,
-        "ironplainsPassport": false,
-        "travelerBonus": false,
-        "nantanChallengeWeeks": [],
-        "manualClaimPoints": 10
-      },
-      "flags": [
-        "normal AO inferred from July attendance",
-        "automatic Kotter return: 70 days absent"
-      ]
     },
     {
       "userId": 70874,
@@ -126,12 +162,17 @@
       "teamIds": [],
       "normalAoOrgId": 49951,
       "normalAoName": "Firebox",
-      "totalPoints": 8,
+      "totalPoints": 14,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 3,
           "details": "3 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 6,
+          "details": "3 non-Q posts x 2 points"
         },
         {
           "label": "Different Ironplains AOs",
@@ -142,11 +183,16 @@
       "scoring": {
         "ironplainsPosts": 3,
         "ironplainsQs": 0,
+        "coffeeterias": 3,
+        "coffeeteriaPoints": 6,
         "differentIronplainsAos": 2,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -160,12 +206,17 @@
       "teamIds": [],
       "normalAoOrgId": 49774,
       "normalAoName": "Pumpkin Patch",
-      "totalPoints": 8,
+      "totalPoints": 14,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 3,
           "details": "3 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 6,
+          "details": "3 non-Q posts x 2 points"
         },
         {
           "label": "Different Ironplains AOs",
@@ -176,11 +227,16 @@
       "scoring": {
         "ironplainsPosts": 3,
         "ironplainsQs": 0,
+        "coffeeterias": 3,
+        "coffeeteriaPoints": 6,
         "differentIronplainsAos": 2,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -192,12 +248,17 @@
       "teamIds": [],
       "normalAoOrgId": 49774,
       "normalAoName": "Pumpkin Patch",
-      "totalPoints": 7,
+      "totalPoints": 11,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 2,
           "details": "2 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 4,
+          "details": "2 non-Q posts x 2 points"
         },
         {
           "label": "Different Ironplains AOs",
@@ -208,11 +269,16 @@
       "scoring": {
         "ironplainsPosts": 2,
         "ironplainsQs": 0,
+        "coffeeterias": 2,
+        "coffeeteriaPoints": 4,
         "differentIronplainsAos": 2,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -226,12 +292,17 @@
       "teamIds": [],
       "normalAoOrgId": 49521,
       "normalAoName": "The Sandlot",
-      "totalPoints": 7,
+      "totalPoints": 11,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 2,
           "details": "2 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 4,
+          "details": "2 non-Q posts x 2 points"
         },
         {
           "label": "Different Ironplains AOs",
@@ -242,11 +313,16 @@
       "scoring": {
         "ironplainsPosts": 2,
         "ironplainsQs": 0,
+        "coffeeterias": 2,
+        "coffeeteriaPoints": 4,
         "differentIronplainsAos": 2,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -260,12 +336,17 @@
       "teamIds": [],
       "normalAoOrgId": 49774,
       "normalAoName": "Pumpkin Patch",
-      "totalPoints": 7,
+      "totalPoints": 11,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 2,
           "details": "2 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 4,
+          "details": "2 non-Q posts x 2 points"
         },
         {
           "label": "Different Ironplains AOs",
@@ -276,11 +357,16 @@
       "scoring": {
         "ironplainsPosts": 2,
         "ironplainsQs": 0,
+        "coffeeterias": 2,
+        "coffeeteriaPoints": 4,
         "differentIronplainsAos": 2,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -294,12 +380,17 @@
       "teamIds": [],
       "normalAoOrgId": 49774,
       "normalAoName": "Pumpkin Patch",
-      "totalPoints": 7,
+      "totalPoints": 11,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 2,
           "details": "2 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 4,
+          "details": "2 non-Q posts x 2 points"
         },
         {
           "label": "Different Ironplains AOs",
@@ -310,11 +401,16 @@
       "scoring": {
         "ironplainsPosts": 2,
         "ironplainsQs": 0,
+        "coffeeterias": 2,
+        "coffeeteriaPoints": 4,
         "differentIronplainsAos": 2,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -326,12 +422,17 @@
       "teamIds": [],
       "normalAoOrgId": 46316,
       "normalAoName": "The Pitch",
-      "totalPoints": 7,
+      "totalPoints": 11,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 2,
           "details": "2 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 4,
+          "details": "2 non-Q posts x 2 points"
         },
         {
           "label": "Different Ironplains AOs",
@@ -342,11 +443,16 @@
       "scoring": {
         "ironplainsPosts": 2,
         "ironplainsQs": 0,
+        "coffeeterias": 2,
+        "coffeeteriaPoints": 4,
         "differentIronplainsAos": 2,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -358,12 +464,17 @@
       "teamIds": [],
       "normalAoOrgId": 49777,
       "normalAoName": "Little Egypt",
-      "totalPoints": 7,
+      "totalPoints": 11,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 2,
           "details": "2 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 4,
+          "details": "2 non-Q posts x 2 points"
         },
         {
           "label": "Different Ironplains AOs",
@@ -374,11 +485,16 @@
       "scoring": {
         "ironplainsPosts": 2,
         "ironplainsQs": 0,
+        "coffeeterias": 2,
+        "coffeeteriaPoints": 4,
         "differentIronplainsAos": 2,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -390,13 +506,8 @@
       "teamIds": [],
       "normalAoOrgId": 49777,
       "normalAoName": "Little Egypt",
-      "totalPoints": 6,
+      "totalPoints": 5,
       "pointBreakdown": [
-        {
-          "label": "Ironplains posts",
-          "points": 1,
-          "details": "1 posts x 1 point"
-        },
         {
           "label": "Ironplains Qs",
           "points": 5,
@@ -404,13 +515,18 @@
         }
       ],
       "scoring": {
-        "ironplainsPosts": 1,
+        "ironplainsPosts": 0,
         "ironplainsQs": 1,
+        "coffeeterias": 0,
+        "coffeeteriaPoints": 0,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -422,13 +538,8 @@
       "teamIds": [],
       "normalAoOrgId": 46316,
       "normalAoName": "The Pitch",
-      "totalPoints": 6,
+      "totalPoints": 5,
       "pointBreakdown": [
-        {
-          "label": "Ironplains posts",
-          "points": 1,
-          "details": "1 posts x 1 point"
-        },
         {
           "label": "Ironplains Qs",
           "points": 5,
@@ -436,13 +547,18 @@
         }
       ],
       "scoring": {
-        "ironplainsPosts": 1,
+        "ironplainsPosts": 0,
         "ironplainsQs": 1,
+        "coffeeterias": 0,
+        "coffeeteriaPoints": 0,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -454,13 +570,8 @@
       "teamIds": [],
       "normalAoOrgId": 50424,
       "normalAoName": "The Silo",
-      "totalPoints": 6,
+      "totalPoints": 5,
       "pointBreakdown": [
-        {
-          "label": "Ironplains posts",
-          "points": 1,
-          "details": "1 posts x 1 point"
-        },
         {
           "label": "Ironplains Qs",
           "points": 5,
@@ -468,13 +579,18 @@
         }
       ],
       "scoring": {
-        "ironplainsPosts": 1,
+        "ironplainsPosts": 0,
         "ironplainsQs": 1,
+        "coffeeterias": 0,
+        "coffeeteriaPoints": 0,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -488,22 +604,32 @@
       "teamIds": [],
       "normalAoOrgId": 49774,
       "normalAoName": "Pumpkin Patch",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -517,22 +643,32 @@
       "teamIds": [],
       "normalAoOrgId": 49774,
       "normalAoName": "Pumpkin Patch",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -544,22 +680,32 @@
       "teamIds": [],
       "normalAoOrgId": 49774,
       "normalAoName": "Pumpkin Patch",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -573,22 +719,32 @@
       "teamIds": [],
       "normalAoOrgId": 49774,
       "normalAoName": "Pumpkin Patch",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -600,22 +756,32 @@
       "teamIds": [],
       "normalAoOrgId": 49777,
       "normalAoName": "Little Egypt",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -627,22 +793,32 @@
       "teamIds": [],
       "normalAoOrgId": 49774,
       "normalAoName": "Pumpkin Patch",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -656,22 +832,32 @@
       "teamIds": [],
       "normalAoOrgId": 50424,
       "normalAoName": "The Silo",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -685,22 +871,32 @@
       "teamIds": [],
       "normalAoOrgId": 42990,
       "normalAoName": "Prost",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -714,22 +910,32 @@
       "teamIds": [],
       "normalAoOrgId": 49521,
       "normalAoName": "The Sandlot",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -743,22 +949,32 @@
       "teamIds": [],
       "normalAoOrgId": 49777,
       "normalAoName": "Little Egypt",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -770,22 +986,32 @@
       "teamIds": [],
       "normalAoOrgId": 49774,
       "normalAoName": "Pumpkin Patch",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -799,22 +1025,32 @@
       "teamIds": [],
       "normalAoOrgId": 49774,
       "normalAoName": "Pumpkin Patch",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -828,22 +1064,32 @@
       "teamIds": [],
       "normalAoOrgId": 49774,
       "normalAoName": "Pumpkin Patch",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -857,22 +1103,32 @@
       "teamIds": [],
       "normalAoOrgId": 49774,
       "normalAoName": "Pumpkin Patch",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -886,22 +1142,32 @@
       "teamIds": [],
       "normalAoOrgId": 46316,
       "normalAoName": "The Pitch",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -913,22 +1179,32 @@
       "teamIds": [],
       "normalAoOrgId": 49774,
       "normalAoName": "Pumpkin Patch",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -940,22 +1216,32 @@
       "teamIds": [],
       "normalAoOrgId": 49777,
       "normalAoName": "Little Egypt",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -967,22 +1253,32 @@
       "teamIds": [],
       "normalAoOrgId": 50424,
       "normalAoName": "The Silo",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -996,22 +1292,32 @@
       "teamIds": [],
       "normalAoOrgId": 49521,
       "normalAoName": "The Sandlot",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -1025,22 +1331,32 @@
       "teamIds": [],
       "normalAoOrgId": 49774,
       "normalAoName": "Pumpkin Patch",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -1054,22 +1370,32 @@
       "teamIds": [],
       "normalAoOrgId": 46316,
       "normalAoName": "The Pitch",
-      "totalPoints": 1,
+      "totalPoints": 3,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
           "points": 1,
           "details": "1 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 2,
+          "details": "1 non-Q posts x 2 points"
         }
       ],
       "scoring": {
         "ironplainsPosts": 1,
         "ironplainsQs": 0,
+        "coffeeterias": 1,
+        "coffeeteriaPoints": 2,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "lazarusAward": false,
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 0
       },
@@ -1080,7 +1406,7 @@
     {
       "teamId": "ao-49774",
       "teamName": "Pumpkin Patch",
-      "totalPoints": 51,
+      "totalPoints": 118,
       "memberUserIds": [
         49507,
         85035,
@@ -1103,7 +1429,7 @@
     {
       "teamId": "ao-49951",
       "teamName": "Firebox",
-      "totalPoints": 26,
+      "totalPoints": 32,
       "memberUserIds": [
         70874,
         85109
@@ -1112,7 +1438,7 @@
     {
       "teamId": "ao-49777",
       "teamName": "Little Egypt",
-      "totalPoints": 16,
+      "totalPoints": 25,
       "memberUserIds": [
         1218,
         12193,
@@ -1124,7 +1450,7 @@
     {
       "teamId": "ao-46316",
       "teamName": "The Pitch",
-      "totalPoints": 15,
+      "totalPoints": 22,
       "memberUserIds": [
         23172,
         30393,
@@ -1135,7 +1461,7 @@
     {
       "teamId": "ao-42990",
       "teamName": "Prost",
-      "totalPoints": 14,
+      "totalPoints": 19,
       "memberUserIds": [
         12039,
         23397
@@ -1144,7 +1470,7 @@
     {
       "teamId": "ao-49521",
       "teamName": "The Sandlot",
-      "totalPoints": 9,
+      "totalPoints": 17,
       "memberUserIds": [
         85023,
         85143,
@@ -1154,7 +1480,7 @@
     {
       "teamId": "ao-50424",
       "teamName": "The Silo",
-      "totalPoints": 8,
+      "totalPoints": 11,
       "memberUserIds": [
         85110,
         85128,
@@ -1162,5 +1488,7 @@
       ]
     }
   ],
-  "disputedClaims": []
+  "disputedClaims": [],
+  "ignoredSourceRows": 0,
+  "ignoredDisplayNames": []
 }
