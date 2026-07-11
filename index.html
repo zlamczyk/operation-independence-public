@@ -593,7 +593,7 @@
         return `
           <ul class="ao-list">
             ${aos
-              .map((ao) => `<li class="ao-chip">${escapeHtml(ao.name)} <span class="no">#${escapeHtml(ao.orgId)}</span></li>`)
+              .map((ao) => `<li class="ao-chip">${escapeHtml(ao.name)}</li>`)
               .join("")}
           </ul>
         `;
