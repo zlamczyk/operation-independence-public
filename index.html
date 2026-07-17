@@ -324,6 +324,45 @@
         outline-offset: 2px;
       }
 
+      .claim-action {
+        align-items: center;
+        background: #f8fbff;
+        border: 1px solid #c9d7ea;
+        border-left: 4px solid var(--blue);
+        border-radius: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 14px;
+        justify-content: space-between;
+        margin: 0 0 16px;
+        padding: 12px;
+      }
+
+      .claim-action p {
+        color: var(--muted);
+        flex: 1 1 280px;
+        margin: 0;
+      }
+
+      .claim-button {
+        appearance: none;
+        border: 0;
+        border-radius: 8px;
+        background: var(--red);
+        color: #ffffff;
+        cursor: pointer;
+        font: inherit;
+        font-weight: 800;
+        padding: 10px 12px;
+      }
+
+      .claim-button:hover,
+      .claim-button:focus {
+        background: #8f2422;
+        outline: 2px solid rgba(170, 45, 42, 0.2);
+        outline-offset: 2px;
+      }
+
       .modal-body {
         flex: 1;
         min-height: 0;
@@ -723,6 +762,12 @@
         title.textContent = entry.displayName;
         subtitle.textContent = `${entry.totalPoints ?? 0} points | Normal AO: ${normalAo}`;
         body.innerHTML = `
+          <div class="claim-action">
+            <p>Claim details are reviewed before points are added. Details are not posted publicly.</p>
+            <button class="claim-button" type="button" data-manual-claim-user-id="${entry.userId}">
+              Submit Manual Claim
+            </button>
+          </div>
           <div class="stat-grid">
             <div class="stat"><span>Posts</span><strong>${scoring.ironplainsPosts ?? 0}</strong></div>
             <div class="stat"><span>Qs</span><strong>${scoring.ironplainsQs ?? 0}</strong></div>
@@ -775,6 +820,21 @@
           <p class="status">Breakdown total: ${getBreakdownSum(entry)} points</p>
           ${notes ? `<p class="flags"><strong>Notes:</strong> ${escapeHtml(notes)}</p>` : ""}
         `;
+        body.querySelector(".claim-button")?.addEventListener("click", () => {
+          const confirmed = window.confirm(
+            `You are submitting a manual claim for:\n${entry.displayName}\n\nContinue to the claim form?`,
+          );
+
+          if (!confirmed) {
+            return;
+          }
+
+          const formUrl =
+            "https://docs.google.com/forms/d/e/1FAIpQLSdJPzzXSCCMRFRcs63DjjIeagiT1m76G1KTrI-hEij_AXMzBw/viewform" +
+            `?usp=pp_url&entry.891155319=${encodeURIComponent(entry.displayName)}` +
+            `&entry.771084906=${encodeURIComponent(entry.userId)}`;
+          window.open(formUrl, "_blank", "noopener,noreferrer");
+        });
 
         document.body.classList.add("modal-open");
         dialog.showModal();
