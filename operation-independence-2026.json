@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T16:13:01.547Z",
+  "generatedAt": "2026-07-17T16:34:32.792Z",
   "challenge": {
     "name": "Operation Independence",
     "subtitle": "F3 Ironplains Challenge",
@@ -2400,7 +2400,7 @@
         {
           "label": "VQ",
           "points": 15,
-          "details": "First recorded Q during Operation Independence."
+          "details": "Q or co-Q on a VQ-tagged Operation Independence event."
         }
       ],
       "scoring": {
@@ -2427,7 +2427,7 @@
       },
       "flags": [
         "normal AO inferred from July attendance",
-        "automatic VQ: first recorded Q"
+        "automatic VQ: VQ event tag"
       ]
     },
     {
