@@ -168,6 +168,21 @@
         text-underline-offset: 3px;
       }
 
+      .team-button {
+        appearance: none;
+        border: 0;
+        background: transparent;
+        color: var(--navy);
+        cursor: pointer;
+        font: inherit;
+        font-weight: 800;
+        padding: 0;
+        text-align: left;
+        text-decoration: underline;
+        text-decoration-color: rgba(35, 79, 143, 0.35);
+        text-underline-offset: 3px;
+      }
+
       .pill {
         display: inline-block;
         min-width: 34px;
@@ -349,6 +364,15 @@
 
       .breakdown-table td,
       .breakdown-table th {
+        white-space: normal;
+      }
+
+      .member-table {
+        min-width: 0;
+      }
+
+      .member-table td,
+      .member-table th {
         white-space: normal;
       }
 
@@ -544,6 +568,19 @@
             <button id="modal-close" class="close-button" type="button" aria-label="Close details">×</button>
           </div>
           <div id="modal-body" class="modal-body"></div>
+        </div>
+      </dialog>
+
+      <dialog id="team-dialog">
+        <div class="modal-panel">
+          <div class="modal-header">
+            <div>
+              <h2 id="team-modal-title" class="modal-title">AO team details</h2>
+              <p id="team-modal-subtitle" class="modal-subtitle"></p>
+            </div>
+            <button id="team-modal-close" class="close-button" type="button" aria-label="Close team details">×</button>
+          </div>
+          <div id="team-modal-body" class="modal-body"></div>
         </div>
       </dialog>
     </main>
@@ -743,7 +780,82 @@
         dialog.showModal();
       }
 
-      function renderTeams(teams) {
+      function openTeamDialog(team, rank, leaderboard) {
+        const dialog = document.getElementById("team-dialog");
+        const title = document.getElementById("team-modal-title");
+        const subtitle = document.getElementById("team-modal-subtitle");
+        const body = document.getElementById("team-modal-body");
+        const memberIds = team.memberUserIds ?? [];
+        const memberCount = memberIds.length;
+        const totalPoints = team.totalPoints ?? 0;
+        const pointsPerMember = memberCount > 0 ? (totalPoints / memberCount).toFixed(1) : "-";
+        const entriesByUserId = new Map((leaderboard ?? []).map((entry) => [entry.userId, entry]));
+        const members = memberIds
+          .map((userId) => entriesByUserId.get(userId))
+          .filter(Boolean)
+          .sort((left, right) => (right.totalPoints ?? 0) - (left.totalPoints ?? 0) || left.displayName.localeCompare(right.displayName));
+
+        title.textContent = team.teamName;
+        subtitle.textContent = `Rank ${rank} | ${totalPoints} points | ${memberCount} members | ${pointsPerMember} pts/member`;
+        body.innerHTML = `
+          <div class="stat-grid">
+            <div class="stat"><span>Rank</span><strong>${rank}</strong></div>
+            <div class="stat"><span>Total Points</span><strong>${totalPoints}</strong></div>
+            <div class="stat"><span>Members</span><strong>${memberCount}</strong></div>
+            <div class="stat"><span>Points / Member</span><strong>${pointsPerMember}</strong></div>
+          </div>
+          <div class="table-wrap">
+            <table class="member-table" aria-label="Member contributions for ${escapeHtml(team.teamName)}">
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>PAX</th>
+                  <th>Points</th>
+                  <th>Share</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${
+                  members.length
+                    ? members
+                        .map((member, index) => {
+                          const memberPoints = member.totalPoints ?? 0;
+                          const share = totalPoints > 0 ? `${((memberPoints / totalPoints) * 100).toFixed(1)}%` : "-";
+                          return `
+                            <tr>
+                              <td class="rank">${index + 1}</td>
+                              <td>
+                                <button class="pax-button team-member-button" type="button" data-user-id="${member.userId}">
+                                  ${escapeHtml(member.displayName)}
+                                </button>
+                              </td>
+                              <td class="points">${memberPoints}</td>
+                              <td>${share}</td>
+                            </tr>
+                          `;
+                        })
+                        .join("")
+                    : '<tr><td colspan="4">No matching leaderboard members found.</td></tr>'
+                }
+              </tbody>
+            </table>
+          </div>
+        `;
+        body.onclick = (event) => {
+          const button = event.target.closest(".team-member-button");
+          if (!button) return;
+          const userId = Number(button.dataset.userId);
+          const entry = entriesByUserId.get(userId);
+          if (!entry) return;
+          dialog.close();
+          setTimeout(() => openPaxDialog(entry), 0);
+        };
+
+        document.body.classList.add("modal-open");
+        dialog.showModal();
+      }
+
+      function renderTeams(teams, leaderboard) {
         const container = document.getElementById("teams-content");
 
         if (!teams.length) {
@@ -759,26 +871,45 @@
                   <th>Rank</th>
                   <th>Team</th>
                   <th>Points</th>
+                  <th>Points / Member</th>
                   <th>Members</th>
                 </tr>
               </thead>
               <tbody>
                 ${teams
-                  .map(
-                    (team, index) => `
+                  .map((team, index) => {
+                    const memberCount = (team.memberUserIds ?? []).length;
+                    const pointsPerMember = memberCount > 0 ? ((team.totalPoints ?? 0) / memberCount).toFixed(1) : "-";
+                    return `
                       <tr>
                         <td class="rank">${index + 1}</td>
-                        <td>${escapeHtml(team.teamName)}</td>
+                        <td>
+                          <button class="team-button" type="button" data-team-id="${team.teamId}">
+                            ${escapeHtml(team.teamName)}
+                          </button>
+                        </td>
                         <td class="points">${team.totalPoints ?? 0}</td>
-                        <td>${(team.memberUserIds ?? []).length}</td>
+                        <td>${pointsPerMember}</td>
+                        <td>${memberCount}</td>
                       </tr>
-                    `,
-                  )
+                    `;
+                  })
                   .join("")}
               </tbody>
             </table>
           </div>
         `;
+
+        container.addEventListener(
+          "click",
+          (event) => {
+            const button = event.target.closest(".team-button");
+            if (!button) return;
+            const team = teams.find((item) => item.teamId === button.dataset.teamId);
+            if (!team) return;
+            const rank = teams.findIndex((item) => item.teamId === team.teamId) + 1;
+            openTeamDialog(team, rank, leaderboard);
+          });
       }
 
       function renderClaims(claims) {
@@ -821,7 +952,7 @@
           status.textContent = formatDateTime(data.generatedAt);
           renderSummary(data);
           renderLeaderboard(data.leaderboard ?? []);
-          renderTeams(data.teams ?? []);
+          renderTeams(data.teams ?? [], data.leaderboard ?? []);
           renderClaims(data.disputedClaims ?? []);
 
           document.getElementById("leaderboard-body").addEventListener("click", (event) => {
@@ -851,6 +982,20 @@
       });
 
       document.getElementById("pax-dialog").addEventListener("close", () => {
+        document.body.classList.remove("modal-open");
+      });
+
+      document.getElementById("team-modal-close").addEventListener("click", () => {
+        document.getElementById("team-dialog").close();
+      });
+
+      document.getElementById("team-dialog").addEventListener("click", (event) => {
+        if (event.target === event.currentTarget) {
+          event.currentTarget.close();
+        }
+      });
+
+      document.getElementById("team-dialog").addEventListener("close", () => {
         document.body.classList.remove("modal-open");
       });
     </script>
