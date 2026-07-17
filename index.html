@@ -351,9 +351,11 @@
         background: var(--red);
         color: #ffffff;
         cursor: pointer;
+        display: inline-block;
         font: inherit;
         font-weight: 800;
         padding: 10px 12px;
+        text-decoration: none;
       }
 
       .claim-button:hover,
@@ -745,6 +747,14 @@
           .reduce((sum, item) => sum + (item.points ?? 0), 0);
       }
 
+      function getManualClaimFormUrl(entry) {
+        return (
+          "https://docs.google.com/forms/d/e/1FAIpQLSdJPzzXSCCMRFRcs63DjjIeagiT1m76G1KTrI-hEij_AXMzBw/viewform" +
+          `?usp=pp_url&entry.891155319=${encodeURIComponent(entry.displayName)}` +
+          `&entry.771084906=${encodeURIComponent(entry.userId)}`
+        );
+      }
+
       function openPaxDialog(entry) {
         const dialog = document.getElementById("pax-dialog");
         const title = document.getElementById("modal-title");
@@ -764,9 +774,9 @@
         body.innerHTML = `
           <div class="claim-action">
             <p>Claim details are reviewed before points are added. Details are not posted publicly.</p>
-            <button class="claim-button" type="button" data-manual-claim-user-id="${entry.userId}">
+            <a class="claim-button" href="${escapeHtml(getManualClaimFormUrl(entry))}" target="_top">
               Submit Manual Claim
-            </button>
+            </a>
           </div>
           <div class="stat-grid">
             <div class="stat"><span>Posts</span><strong>${scoring.ironplainsPosts ?? 0}</strong></div>
@@ -820,21 +830,6 @@
           <p class="status">Breakdown total: ${getBreakdownSum(entry)} points</p>
           ${notes ? `<p class="flags"><strong>Notes:</strong> ${escapeHtml(notes)}</p>` : ""}
         `;
-        body.querySelector(".claim-button")?.addEventListener("click", () => {
-          const confirmed = window.confirm(
-            `You are submitting a manual claim for:\n${entry.displayName}\n\nContinue to the claim form?`,
-          );
-
-          if (!confirmed) {
-            return;
-          }
-
-          const formUrl =
-            "https://docs.google.com/forms/d/e/1FAIpQLSdJPzzXSCCMRFRcs63DjjIeagiT1m76G1KTrI-hEij_AXMzBw/viewform" +
-            `?usp=pp_url&entry.891155319=${encodeURIComponent(entry.displayName)}` +
-            `&entry.771084906=${encodeURIComponent(entry.userId)}`;
-          window.open(formUrl, "_blank", "noopener,noreferrer");
-        });
 
         document.body.classList.add("modal-open");
         dialog.showModal();
