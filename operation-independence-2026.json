@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T17:00:49.268Z",
+  "generatedAt": "2026-07-18T21:00:50.270Z",
   "challenge": {
     "name": "Operation Independence",
     "subtitle": "F3 Ironplains Challenge",
@@ -6552,7 +6552,9 @@
     "F3 Nation"
   ],
   "excludedVisitorUserIds": [
+    125,
     51880,
+    24696,
     42614,
     414,
     94206
