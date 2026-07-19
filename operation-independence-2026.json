@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T01:31:01.798Z",
+  "generatedAt": "2026-07-19T22:17:39.130Z",
   "challenge": {
     "name": "Operation Independence",
     "subtitle": "F3 Ironplains Challenge",
@@ -563,6 +563,117 @@
       ]
     },
     {
+      "userId": 23172,
+      "displayName": "O'Donk",
+      "teamIds": [],
+      "normalAoOrgId": 46316,
+      "normalAoName": "The Pitch",
+      "totalPoints": 150,
+      "visitedPassportAos": [
+        {
+          "orgId": 51314,
+          "name": "The Nest"
+        },
+        {
+          "orgId": 42990,
+          "name": "Prost"
+        },
+        {
+          "orgId": 46316,
+          "name": "The Pitch"
+        },
+        {
+          "orgId": 49521,
+          "name": "The Sandlot"
+        },
+        {
+          "orgId": 50424,
+          "name": "The Silo"
+        }
+      ],
+      "missingPassportAos": [
+        {
+          "orgId": 49951,
+          "name": "Firebox"
+        },
+        {
+          "orgId": 49777,
+          "name": "Little Egypt"
+        },
+        {
+          "orgId": 49774,
+          "name": "Pumpkin Patch"
+        }
+      ],
+      "passportAoCount": 5,
+      "passportAoTotal": 8,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 12,
+          "details": "12 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 28,
+          "details": "14 scoring-eligible attendances x 2 points"
+        },
+        {
+          "label": "Ironplains Qs",
+          "points": 5,
+          "details": "1 Qs x 5 points"
+        },
+        {
+          "label": "Downrange posts",
+          "points": 10,
+          "details": "1 posts x 10 points"
+        },
+        {
+          "label": "Downrange Qs",
+          "points": 20,
+          "details": "1 Qs x 20 points"
+        },
+        {
+          "label": "Different Ironplains AOs",
+          "points": 20,
+          "details": "5 AOs visited. First AO is included, each additional AO is +5."
+        },
+        {
+          "label": "Shield Lock",
+          "points": 25,
+          "details": "13 attended/Qed Ironplains beatdowns."
+        },
+        {
+          "label": "Manual claims",
+          "points": 30,
+          "details": "Submitted/manual bonus points."
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 12,
+        "ironplainsQs": 1,
+        "coffeeterias": 14,
+        "coffeeteriaPoints": 28,
+        "differentIronplainsAos": 5,
+        "outsideIronplainsPosts": 1,
+        "outsideIronplainsQs": 1,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "shieldLockBonusPoints": 25,
+        "automaticVq": false,
+        "automaticFng": false,
+        "automaticFngSecondPost": false,
+        "automaticFngThreePostsInJuly": false,
+        "automaticIronSharpensIron": false,
+        "automaticKotterThreePostsInJuly": false,
+        "automaticWeaselShaker": false,
+        "lazarusAward": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 30
+      },
+      "flags": []
+    },
+    {
       "userId": 85107,
       "displayName": "Mater",
       "teamIds": [],
@@ -666,35 +777,17 @@
       ]
     },
     {
-      "userId": 23172,
-      "displayName": "O'Donk",
+      "userId": 85109,
+      "displayName": "Hot Lips",
       "teamIds": [],
-      "normalAoOrgId": 46316,
-      "normalAoName": "The Pitch",
-      "totalPoints": 140,
+      "normalAoOrgId": 49951,
+      "normalAoName": "Firebox",
+      "totalPoints": 137,
       "visitedPassportAos": [
         {
           "orgId": 51314,
           "name": "The Nest"
         },
-        {
-          "orgId": 42990,
-          "name": "Prost"
-        },
-        {
-          "orgId": 46316,
-          "name": "The Pitch"
-        },
-        {
-          "orgId": 49521,
-          "name": "The Sandlot"
-        },
-        {
-          "orgId": 50424,
-          "name": "The Silo"
-        }
-      ],
-      "missingPassportAos": [
         {
           "orgId": 49951,
           "name": "Firebox"
@@ -706,6 +799,24 @@
         {
           "orgId": 49774,
           "name": "Pumpkin Patch"
+        },
+        {
+          "orgId": 46316,
+          "name": "The Pitch"
+        }
+      ],
+      "missingPassportAos": [
+        {
+          "orgId": 42990,
+          "name": "Prost"
+        },
+        {
+          "orgId": 49521,
+          "name": "The Sandlot"
+        },
+        {
+          "orgId": 50424,
+          "name": "The Silo"
         }
       ],
       "passportAoCount": 5,
@@ -713,28 +824,18 @@
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
-          "points": 12,
-          "details": "12 posts x 1 point"
+          "points": 10,
+          "details": "10 posts x 1 point"
         },
         {
           "label": "Coffeeteria",
-          "points": 28,
-          "details": "14 scoring-eligible attendances x 2 points"
+          "points": 32,
+          "details": "16 scoring-eligible attendances x 2 points"
         },
         {
           "label": "Ironplains Qs",
-          "points": 5,
-          "details": "1 Qs x 5 points"
-        },
-        {
-          "label": "Downrange posts",
-          "points": 10,
-          "details": "1 posts x 10 points"
-        },
-        {
-          "label": "Downrange Qs",
-          "points": 20,
-          "details": "1 Qs x 20 points"
+          "points": 30,
+          "details": "6 Qs x 5 points"
         },
         {
           "label": "Different Ironplains AOs",
@@ -744,7 +845,7 @@
         {
           "label": "Shield Lock",
           "points": 25,
-          "details": "13 attended/Qed Ironplains beatdowns."
+          "details": "16 attended/Qed Ironplains beatdowns."
         },
         {
           "label": "Manual claims",
@@ -753,13 +854,13 @@
         }
       ],
       "scoring": {
-        "ironplainsPosts": 12,
-        "ironplainsQs": 1,
-        "coffeeterias": 14,
-        "coffeeteriaPoints": 28,
+        "ironplainsPosts": 10,
+        "ironplainsQs": 6,
+        "coffeeterias": 16,
+        "coffeeteriaPoints": 32,
         "differentIronplainsAos": 5,
-        "outsideIronplainsPosts": 1,
-        "outsideIronplainsQs": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": false,
         "shieldLockBonusPoints": 25,
@@ -774,7 +875,9 @@
         "nantanChallengeWeeks": [],
         "manualClaimPoints": 20
       },
-      "flags": []
+      "flags": [
+        "normal AO inferred from July attendance"
+      ]
     },
     {
       "userId": 49507,
@@ -1075,104 +1178,6 @@
         "outsideIronplainsQs": 0,
         "ironplainsPassport": false,
         "travelerBonus": true,
-        "shieldLockBonusPoints": 25,
-        "automaticVq": false,
-        "automaticFng": false,
-        "automaticFngSecondPost": false,
-        "automaticFngThreePostsInJuly": false,
-        "automaticIronSharpensIron": false,
-        "automaticKotterThreePostsInJuly": false,
-        "automaticWeaselShaker": false,
-        "lazarusAward": false,
-        "nantanChallengeWeeks": [],
-        "manualClaimPoints": 0
-      },
-      "flags": [
-        "normal AO inferred from July attendance"
-      ]
-    },
-    {
-      "userId": 85109,
-      "displayName": "Hot Lips",
-      "teamIds": [],
-      "normalAoOrgId": 49951,
-      "normalAoName": "Firebox",
-      "totalPoints": 110,
-      "visitedPassportAos": [
-        {
-          "orgId": 51314,
-          "name": "The Nest"
-        },
-        {
-          "orgId": 49951,
-          "name": "Firebox"
-        },
-        {
-          "orgId": 49777,
-          "name": "Little Egypt"
-        },
-        {
-          "orgId": 49774,
-          "name": "Pumpkin Patch"
-        },
-        {
-          "orgId": 46316,
-          "name": "The Pitch"
-        }
-      ],
-      "missingPassportAos": [
-        {
-          "orgId": 42990,
-          "name": "Prost"
-        },
-        {
-          "orgId": 49521,
-          "name": "The Sandlot"
-        },
-        {
-          "orgId": 50424,
-          "name": "The Silo"
-        }
-      ],
-      "passportAoCount": 5,
-      "passportAoTotal": 8,
-      "pointBreakdown": [
-        {
-          "label": "Ironplains posts",
-          "points": 10,
-          "details": "10 posts x 1 point"
-        },
-        {
-          "label": "Coffeeteria",
-          "points": 30,
-          "details": "15 scoring-eligible attendances x 2 points"
-        },
-        {
-          "label": "Ironplains Qs",
-          "points": 25,
-          "details": "5 Qs x 5 points"
-        },
-        {
-          "label": "Different Ironplains AOs",
-          "points": 20,
-          "details": "5 AOs visited. First AO is included, each additional AO is +5."
-        },
-        {
-          "label": "Shield Lock",
-          "points": 25,
-          "details": "15 attended/Qed Ironplains beatdowns."
-        }
-      ],
-      "scoring": {
-        "ironplainsPosts": 10,
-        "ironplainsQs": 5,
-        "coffeeterias": 15,
-        "coffeeteriaPoints": 30,
-        "differentIronplainsAos": 5,
-        "outsideIronplainsPosts": 0,
-        "outsideIronplainsQs": 0,
-        "ironplainsPassport": false,
-        "travelerBonus": false,
         "shieldLockBonusPoints": 25,
         "automaticVq": false,
         "automaticFng": false,
@@ -6451,7 +6456,7 @@
     {
       "teamId": "ao-46316",
       "teamName": "The Pitch",
-      "totalPoints": 741,
+      "totalPoints": 751,
       "memberUserIds": [
         23172,
         30393,
@@ -6496,6 +6501,17 @@
       ]
     },
     {
+      "teamId": "ao-49951",
+      "teamName": "Firebox",
+      "totalPoints": 297,
+      "memberUserIds": [
+        85108,
+        85109,
+        85113,
+        115623
+      ]
+    },
+    {
       "teamId": "ao-49521",
       "teamName": "The Sandlot",
       "totalPoints": 278,
@@ -6505,17 +6521,6 @@
         85084,
         85085,
         85143
-      ]
-    },
-    {
-      "teamId": "ao-49951",
-      "teamName": "Firebox",
-      "totalPoints": 270,
-      "memberUserIds": [
-        85108,
-        85109,
-        85113,
-        115623
       ]
     },
     {
