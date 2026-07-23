@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T02:49:19.267Z",
+  "generatedAt": "2026-07-23T09:49:17.761Z",
   "challenge": {
     "name": "Operation Independence",
     "subtitle": "F3 Ironplains Challenge",
@@ -15,7 +15,7 @@
       "teamIds": [],
       "normalAoOrgId": 49777,
       "normalAoName": "Little Egypt",
-      "totalPoints": 305,
+      "totalPoints": 315,
       "visitedPassportAos": [
         {
           "orgId": 51314,
@@ -101,7 +101,7 @@
         },
         {
           "label": "Manual claims",
-          "points": 60,
+          "points": 70,
           "details": "Submitted/manual bonus points."
         }
       ],
@@ -125,7 +125,7 @@
         "automaticWeaselShaker": false,
         "lazarusAward": false,
         "nantanChallengeWeeks": [],
-        "manualClaimPoints": 60
+        "manualClaimPoints": 70
       },
       "flags": []
     },
@@ -6874,7 +6874,7 @@
     {
       "teamId": "ao-49777",
       "teamName": "Little Egypt",
-      "totalPoints": 874,
+      "totalPoints": 884,
       "memberUserIds": [
         1218,
         12193,
