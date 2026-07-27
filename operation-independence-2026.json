@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T15:49:12.302Z",
+  "generatedAt": "2026-07-27T23:49:13.284Z",
   "challenge": {
     "name": "Operation Independence",
     "subtitle": "F3 Ironplains Challenge",
@@ -15,7 +15,7 @@
       "teamIds": [],
       "normalAoOrgId": 49777,
       "normalAoName": "Little Egypt",
-      "totalPoints": 327,
+      "totalPoints": 330,
       "visitedPassportAos": [
         {
           "orgId": 51314,
@@ -56,13 +56,13 @@
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
-          "points": 11,
-          "details": "11 posts x 1 point"
+          "points": 12,
+          "details": "12 posts x 1 point"
         },
         {
           "label": "Coffeeteria",
-          "points": 36,
-          "details": "18 scoring-eligible attendances x 2 points"
+          "points": 38,
+          "details": "19 scoring-eligible attendances x 2 points"
         },
         {
           "label": "Ironplains Qs",
@@ -97,7 +97,7 @@
         {
           "label": "Shield Lock",
           "points": 25,
-          "details": "13 attended/Qed Ironplains beatdowns."
+          "details": "14 attended/Qed Ironplains beatdowns."
         },
         {
           "label": "Manual claims",
@@ -106,10 +106,10 @@
         }
       ],
       "scoring": {
-        "ironplainsPosts": 11,
+        "ironplainsPosts": 12,
         "ironplainsQs": 2,
-        "coffeeterias": 18,
-        "coffeeteriaPoints": 36,
+        "coffeeterias": 19,
+        "coffeeteriaPoints": 38,
         "differentIronplainsAos": 8,
         "outsideIronplainsPosts": 5,
         "outsideIronplainsQs": 2,
@@ -135,7 +135,7 @@
       "teamIds": [],
       "normalAoOrgId": 49777,
       "normalAoName": "Little Egypt",
-      "totalPoints": 295,
+      "totalPoints": 302,
       "visitedPassportAos": [
         {
           "orgId": 51314,
@@ -181,13 +181,13 @@
         },
         {
           "label": "Coffeeteria",
-          "points": 36,
-          "details": "18 scoring-eligible attendances x 2 points"
+          "points": 38,
+          "details": "19 scoring-eligible attendances x 2 points"
         },
         {
           "label": "Ironplains Qs",
-          "points": 5,
-          "details": "1 Qs x 5 points"
+          "points": 10,
+          "details": "2 Qs x 5 points"
         },
         {
           "label": "Downrange posts",
@@ -212,7 +212,7 @@
         {
           "label": "Shield Lock",
           "points": 25,
-          "details": "15 attended/Qed Ironplains beatdowns."
+          "details": "16 attended/Qed Ironplains beatdowns."
         },
         {
           "label": "Manual claims",
@@ -222,9 +222,9 @@
       ],
       "scoring": {
         "ironplainsPosts": 14,
-        "ironplainsQs": 1,
-        "coffeeterias": 18,
-        "coffeeteriaPoints": 36,
+        "ironplainsQs": 2,
+        "coffeeterias": 19,
+        "coffeeteriaPoints": 38,
         "differentIronplainsAos": 8,
         "outsideIronplainsPosts": 3,
         "outsideIronplainsQs": 0,
@@ -362,6 +362,122 @@
       ]
     },
     {
+      "userId": 12193,
+      "displayName": "Plankton",
+      "teamIds": [],
+      "normalAoOrgId": 49777,
+      "normalAoName": "Little Egypt",
+      "totalPoints": 241,
+      "visitedPassportAos": [
+        {
+          "orgId": 51314,
+          "name": "The Nest"
+        },
+        {
+          "orgId": 49951,
+          "name": "Firebox"
+        },
+        {
+          "orgId": 49777,
+          "name": "Little Egypt"
+        },
+        {
+          "orgId": 42990,
+          "name": "Prost"
+        },
+        {
+          "orgId": 49774,
+          "name": "Pumpkin Patch"
+        },
+        {
+          "orgId": 46316,
+          "name": "The Pitch"
+        }
+      ],
+      "missingPassportAos": [
+        {
+          "orgId": 49521,
+          "name": "The Sandlot"
+        },
+        {
+          "orgId": 50424,
+          "name": "The Silo"
+        }
+      ],
+      "passportAoCount": 6,
+      "passportAoTotal": 8,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 18,
+          "details": "18 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 48,
+          "details": "24 scoring-eligible attendances x 2 points"
+        },
+        {
+          "label": "Ironplains Qs",
+          "points": 20,
+          "details": "4 Qs x 5 points"
+        },
+        {
+          "label": "Downrange posts",
+          "points": 20,
+          "details": "2 posts x 10 points"
+        },
+        {
+          "label": "Downrange Qs",
+          "points": 20,
+          "details": "1 Qs x 20 points"
+        },
+        {
+          "label": "Different Ironplains AOs",
+          "points": 25,
+          "details": "6 AOs visited. First AO is included, each additional AO is +5."
+        },
+        {
+          "label": "Traveler Bonus",
+          "points": 25,
+          "details": "Posted at 5 different AOs outside normal AO."
+        },
+        {
+          "label": "Shield Lock",
+          "points": 25,
+          "details": "22 attended/Qed Ironplains beatdowns."
+        },
+        {
+          "label": "Manual claims",
+          "points": 40,
+          "details": "Submitted/manual bonus points."
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 18,
+        "ironplainsQs": 4,
+        "coffeeterias": 24,
+        "coffeeteriaPoints": 48,
+        "differentIronplainsAos": 6,
+        "outsideIronplainsPosts": 2,
+        "outsideIronplainsQs": 1,
+        "ironplainsPassport": false,
+        "travelerBonus": true,
+        "shieldLockBonusPoints": 25,
+        "automaticVq": false,
+        "automaticFng": false,
+        "automaticFngSecondPost": false,
+        "automaticFngThreePostsInJuly": false,
+        "automaticIronSharpensIron": false,
+        "automaticKotterThreePostsInJuly": false,
+        "automaticWeaselShaker": false,
+        "lazarusAward": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 40
+      },
+      "flags": []
+    },
+    {
       "userId": 23172,
       "displayName": "O'Donk",
       "teamIds": [],
@@ -482,12 +598,12 @@
       "flags": []
     },
     {
-      "userId": 12193,
-      "displayName": "Plankton",
+      "userId": 23397,
+      "displayName": "Nuke",
       "teamIds": [],
-      "normalAoOrgId": 49777,
-      "normalAoName": "Little Egypt",
-      "totalPoints": 238,
+      "normalAoOrgId": 42990,
+      "normalAoName": "Prost",
+      "totalPoints": 236,
       "visitedPassportAos": [
         {
           "orgId": 51314,
@@ -512,9 +628,7 @@
         {
           "orgId": 46316,
           "name": "The Pitch"
-        }
-      ],
-      "missingPassportAos": [
+        },
         {
           "orgId": 49521,
           "name": "The Sandlot"
@@ -524,38 +638,39 @@
           "name": "The Silo"
         }
       ],
-      "passportAoCount": 6,
+      "missingPassportAos": [],
+      "passportAoCount": 8,
       "passportAoTotal": 8,
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
-          "points": 17,
-          "details": "17 posts x 1 point"
+          "points": 24,
+          "details": "24 posts x 1 point"
         },
         {
           "label": "Coffeeteria",
-          "points": 46,
-          "details": "23 scoring-eligible attendances x 2 points"
+          "points": 62,
+          "details": "31 scoring-eligible attendances x 2 points"
         },
         {
           "label": "Ironplains Qs",
-          "points": 20,
-          "details": "4 Qs x 5 points"
+          "points": 30,
+          "details": "6 Qs x 5 points"
         },
         {
           "label": "Downrange posts",
-          "points": 20,
-          "details": "2 posts x 10 points"
-        },
-        {
-          "label": "Downrange Qs",
-          "points": 20,
-          "details": "1 Qs x 20 points"
+          "points": 10,
+          "details": "1 posts x 10 points"
         },
         {
           "label": "Different Ironplains AOs",
+          "points": 35,
+          "details": "8 AOs visited. First AO is included, each additional AO is +5."
+        },
+        {
+          "label": "Ironplains Passport",
           "points": 25,
-          "details": "6 AOs visited. First AO is included, each additional AO is +5."
+          "details": "Posted at every listed Ironplains AO."
         },
         {
           "label": "Traveler Bonus",
@@ -565,23 +680,18 @@
         {
           "label": "Shield Lock",
           "points": 25,
-          "details": "21 attended/Qed Ironplains beatdowns."
-        },
-        {
-          "label": "Manual claims",
-          "points": 40,
-          "details": "Submitted/manual bonus points."
+          "details": "30 attended/Qed Ironplains beatdowns."
         }
       ],
       "scoring": {
-        "ironplainsPosts": 17,
-        "ironplainsQs": 4,
-        "coffeeterias": 23,
-        "coffeeteriaPoints": 46,
-        "differentIronplainsAos": 6,
-        "outsideIronplainsPosts": 2,
-        "outsideIronplainsQs": 1,
-        "ironplainsPassport": false,
+        "ironplainsPosts": 24,
+        "ironplainsQs": 6,
+        "coffeeterias": 31,
+        "coffeeteriaPoints": 62,
+        "differentIronplainsAos": 8,
+        "outsideIronplainsPosts": 1,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": true,
         "travelerBonus": true,
         "shieldLockBonusPoints": 25,
         "automaticVq": false,
@@ -593,7 +703,7 @@
         "automaticWeaselShaker": false,
         "lazarusAward": false,
         "nantanChallengeWeeks": [],
-        "manualClaimPoints": 40
+        "manualClaimPoints": 0
       },
       "flags": []
     },
@@ -930,112 +1040,6 @@
       "flags": [
         "normal AO inferred from July attendance"
       ]
-    },
-    {
-      "userId": 23397,
-      "displayName": "Nuke",
-      "teamIds": [],
-      "normalAoOrgId": 42990,
-      "normalAoName": "Prost",
-      "totalPoints": 203,
-      "visitedPassportAos": [
-        {
-          "orgId": 51314,
-          "name": "The Nest"
-        },
-        {
-          "orgId": 49951,
-          "name": "Firebox"
-        },
-        {
-          "orgId": 42990,
-          "name": "Prost"
-        },
-        {
-          "orgId": 49774,
-          "name": "Pumpkin Patch"
-        },
-        {
-          "orgId": 46316,
-          "name": "The Pitch"
-        },
-        {
-          "orgId": 49521,
-          "name": "The Sandlot"
-        },
-        {
-          "orgId": 50424,
-          "name": "The Silo"
-        }
-      ],
-      "missingPassportAos": [
-        {
-          "orgId": 49777,
-          "name": "Little Egypt"
-        }
-      ],
-      "passportAoCount": 7,
-      "passportAoTotal": 8,
-      "pointBreakdown": [
-        {
-          "label": "Ironplains posts",
-          "points": 23,
-          "details": "23 posts x 1 point"
-        },
-        {
-          "label": "Coffeeteria",
-          "points": 60,
-          "details": "30 scoring-eligible attendances x 2 points"
-        },
-        {
-          "label": "Ironplains Qs",
-          "points": 30,
-          "details": "6 Qs x 5 points"
-        },
-        {
-          "label": "Downrange posts",
-          "points": 10,
-          "details": "1 posts x 10 points"
-        },
-        {
-          "label": "Different Ironplains AOs",
-          "points": 30,
-          "details": "7 AOs visited. First AO is included, each additional AO is +5."
-        },
-        {
-          "label": "Traveler Bonus",
-          "points": 25,
-          "details": "Posted at 5 different AOs outside normal AO."
-        },
-        {
-          "label": "Shield Lock",
-          "points": 25,
-          "details": "29 attended/Qed Ironplains beatdowns."
-        }
-      ],
-      "scoring": {
-        "ironplainsPosts": 23,
-        "ironplainsQs": 6,
-        "coffeeterias": 30,
-        "coffeeteriaPoints": 60,
-        "differentIronplainsAos": 7,
-        "outsideIronplainsPosts": 1,
-        "outsideIronplainsQs": 0,
-        "ironplainsPassport": false,
-        "travelerBonus": true,
-        "shieldLockBonusPoints": 25,
-        "automaticVq": false,
-        "automaticFng": false,
-        "automaticFngSecondPost": false,
-        "automaticFngThreePostsInJuly": false,
-        "automaticIronSharpensIron": false,
-        "automaticKotterThreePostsInJuly": false,
-        "automaticWeaselShaker": false,
-        "lazarusAward": false,
-        "nantanChallengeWeeks": [],
-        "manualClaimPoints": 0
-      },
-      "flags": []
     },
     {
       "userId": 85107,
@@ -3005,6 +3009,102 @@
       "flags": []
     },
     {
+      "userId": 19874,
+      "displayName": "Metal Miyagi",
+      "teamIds": [],
+      "normalAoOrgId": 49777,
+      "normalAoName": "Little Egypt",
+      "totalPoints": 74,
+      "visitedPassportAos": [
+        {
+          "orgId": 51314,
+          "name": "The Nest"
+        },
+        {
+          "orgId": 49777,
+          "name": "Little Egypt"
+        }
+      ],
+      "missingPassportAos": [
+        {
+          "orgId": 49951,
+          "name": "Firebox"
+        },
+        {
+          "orgId": 42990,
+          "name": "Prost"
+        },
+        {
+          "orgId": 49774,
+          "name": "Pumpkin Patch"
+        },
+        {
+          "orgId": 46316,
+          "name": "The Pitch"
+        },
+        {
+          "orgId": 49521,
+          "name": "The Sandlot"
+        },
+        {
+          "orgId": 50424,
+          "name": "The Silo"
+        }
+      ],
+      "passportAoCount": 2,
+      "passportAoTotal": 8,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 10,
+          "details": "10 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 24,
+          "details": "12 scoring-eligible attendances x 2 points"
+        },
+        {
+          "label": "Ironplains Qs",
+          "points": 10,
+          "details": "2 Qs x 5 points"
+        },
+        {
+          "label": "Different Ironplains AOs",
+          "points": 5,
+          "details": "2 AOs visited. First AO is included, each additional AO is +5."
+        },
+        {
+          "label": "Shield Lock",
+          "points": 25,
+          "details": "12 attended/Qed Ironplains beatdowns."
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 10,
+        "ironplainsQs": 2,
+        "coffeeterias": 12,
+        "coffeeteriaPoints": 24,
+        "differentIronplainsAos": 2,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "shieldLockBonusPoints": 25,
+        "automaticVq": false,
+        "automaticFng": false,
+        "automaticFngSecondPost": false,
+        "automaticFngThreePostsInJuly": false,
+        "automaticIronSharpensIron": false,
+        "automaticKotterThreePostsInJuly": false,
+        "automaticWeaselShaker": false,
+        "lazarusAward": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": []
+    },
+    {
       "userId": 85136,
       "displayName": "Roofie",
       "teamIds": [],
@@ -3189,102 +3289,6 @@
       "flags": [
         "normal AO inferred from July attendance"
       ]
-    },
-    {
-      "userId": 19874,
-      "displayName": "Metal Miyagi",
-      "teamIds": [],
-      "normalAoOrgId": 49777,
-      "normalAoName": "Little Egypt",
-      "totalPoints": 71,
-      "visitedPassportAos": [
-        {
-          "orgId": 51314,
-          "name": "The Nest"
-        },
-        {
-          "orgId": 49777,
-          "name": "Little Egypt"
-        }
-      ],
-      "missingPassportAos": [
-        {
-          "orgId": 49951,
-          "name": "Firebox"
-        },
-        {
-          "orgId": 42990,
-          "name": "Prost"
-        },
-        {
-          "orgId": 49774,
-          "name": "Pumpkin Patch"
-        },
-        {
-          "orgId": 46316,
-          "name": "The Pitch"
-        },
-        {
-          "orgId": 49521,
-          "name": "The Sandlot"
-        },
-        {
-          "orgId": 50424,
-          "name": "The Silo"
-        }
-      ],
-      "passportAoCount": 2,
-      "passportAoTotal": 8,
-      "pointBreakdown": [
-        {
-          "label": "Ironplains posts",
-          "points": 9,
-          "details": "9 posts x 1 point"
-        },
-        {
-          "label": "Coffeeteria",
-          "points": 22,
-          "details": "11 scoring-eligible attendances x 2 points"
-        },
-        {
-          "label": "Ironplains Qs",
-          "points": 10,
-          "details": "2 Qs x 5 points"
-        },
-        {
-          "label": "Different Ironplains AOs",
-          "points": 5,
-          "details": "2 AOs visited. First AO is included, each additional AO is +5."
-        },
-        {
-          "label": "Shield Lock",
-          "points": 25,
-          "details": "11 attended/Qed Ironplains beatdowns."
-        }
-      ],
-      "scoring": {
-        "ironplainsPosts": 9,
-        "ironplainsQs": 2,
-        "coffeeterias": 11,
-        "coffeeteriaPoints": 22,
-        "differentIronplainsAos": 2,
-        "outsideIronplainsPosts": 0,
-        "outsideIronplainsQs": 0,
-        "ironplainsPassport": false,
-        "travelerBonus": false,
-        "shieldLockBonusPoints": 25,
-        "automaticVq": false,
-        "automaticFng": false,
-        "automaticFngSecondPost": false,
-        "automaticFngThreePostsInJuly": false,
-        "automaticIronSharpensIron": false,
-        "automaticKotterThreePostsInJuly": false,
-        "automaticWeaselShaker": false,
-        "lazarusAward": false,
-        "nantanChallengeWeeks": [],
-        "manualClaimPoints": 0
-      },
-      "flags": []
     },
     {
       "userId": 85110,
@@ -3962,6 +3966,102 @@
       "flags": [
         "normal AO inferred from July attendance",
         "automatic VQ: VQ event tag"
+      ]
+    },
+    {
+      "userId": 130466,
+      "displayName": "Brad",
+      "teamIds": [],
+      "normalAoOrgId": 49777,
+      "normalAoName": "Little Egypt",
+      "totalPoints": 49,
+      "visitedPassportAos": [
+        {
+          "orgId": 49777,
+          "name": "Little Egypt"
+        }
+      ],
+      "missingPassportAos": [
+        {
+          "orgId": 51314,
+          "name": "The Nest"
+        },
+        {
+          "orgId": 49951,
+          "name": "Firebox"
+        },
+        {
+          "orgId": 42990,
+          "name": "Prost"
+        },
+        {
+          "orgId": 49774,
+          "name": "Pumpkin Patch"
+        },
+        {
+          "orgId": 46316,
+          "name": "The Pitch"
+        },
+        {
+          "orgId": 49521,
+          "name": "The Sandlot"
+        },
+        {
+          "orgId": 50424,
+          "name": "The Silo"
+        }
+      ],
+      "passportAoCount": 1,
+      "passportAoTotal": 8,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 3,
+          "details": "3 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 6,
+          "details": "3 scoring-eligible attendances x 2 points"
+        },
+        {
+          "label": "FNG returns for 2nd post",
+          "points": 15,
+          "details": "Automatic FNG reached 2 scoring-eligible beatdowns."
+        },
+        {
+          "label": "FNG posts 3x in July",
+          "points": 25,
+          "details": "Automatic FNG reached 3 scoring-eligible beatdowns."
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 3,
+        "ironplainsQs": 0,
+        "coffeeterias": 3,
+        "coffeeteriaPoints": 6,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "automaticFng": true,
+        "automaticFngSecondPost": true,
+        "automaticFngThreePostsInJuly": true,
+        "automaticIronSharpensIron": false,
+        "automaticKotterThreePostsInJuly": false,
+        "automaticWeaselShaker": false,
+        "lazarusAward": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance",
+        "automatic FNG: first recorded post during challenge",
+        "automatic FNG 2nd post",
+        "automatic FNG 3x in July"
       ]
     },
     {
@@ -5180,7 +5280,7 @@
       "teamIds": [],
       "normalAoOrgId": 49777,
       "normalAoName": "Little Egypt",
-      "totalPoints": 22,
+      "totalPoints": 25,
       "visitedPassportAos": [
         {
           "orgId": 49777,
@@ -5222,25 +5322,25 @@
       "pointBreakdown": [
         {
           "label": "Ironplains posts",
-          "points": 4,
-          "details": "4 posts x 1 point"
+          "points": 5,
+          "details": "5 posts x 1 point"
         },
         {
           "label": "Coffeeteria",
-          "points": 8,
-          "details": "4 scoring-eligible attendances x 2 points"
+          "points": 10,
+          "details": "5 scoring-eligible attendances x 2 points"
         },
         {
           "label": "Shield Lock",
           "points": 10,
-          "details": "4 attended/Qed Ironplains beatdowns."
+          "details": "5 attended/Qed Ironplains beatdowns."
         }
       ],
       "scoring": {
-        "ironplainsPosts": 4,
+        "ironplainsPosts": 5,
         "ironplainsQs": 0,
-        "coffeeterias": 4,
-        "coffeeteriaPoints": 8,
+        "coffeeterias": 5,
+        "coffeeteriaPoints": 10,
         "differentIronplainsAos": 1,
         "outsideIronplainsPosts": 0,
         "outsideIronplainsQs": 0,
@@ -5348,96 +5448,6 @@
       },
       "flags": [
         "normal AO inferred from July attendance"
-      ]
-    },
-    {
-      "userId": 130466,
-      "displayName": "Brad",
-      "teamIds": [],
-      "normalAoOrgId": 49777,
-      "normalAoName": "Little Egypt",
-      "totalPoints": 21,
-      "visitedPassportAos": [
-        {
-          "orgId": 49777,
-          "name": "Little Egypt"
-        }
-      ],
-      "missingPassportAos": [
-        {
-          "orgId": 51314,
-          "name": "The Nest"
-        },
-        {
-          "orgId": 49951,
-          "name": "Firebox"
-        },
-        {
-          "orgId": 42990,
-          "name": "Prost"
-        },
-        {
-          "orgId": 49774,
-          "name": "Pumpkin Patch"
-        },
-        {
-          "orgId": 46316,
-          "name": "The Pitch"
-        },
-        {
-          "orgId": 49521,
-          "name": "The Sandlot"
-        },
-        {
-          "orgId": 50424,
-          "name": "The Silo"
-        }
-      ],
-      "passportAoCount": 1,
-      "passportAoTotal": 8,
-      "pointBreakdown": [
-        {
-          "label": "Ironplains posts",
-          "points": 2,
-          "details": "2 posts x 1 point"
-        },
-        {
-          "label": "Coffeeteria",
-          "points": 4,
-          "details": "2 scoring-eligible attendances x 2 points"
-        },
-        {
-          "label": "FNG returns for 2nd post",
-          "points": 15,
-          "details": "Automatic FNG reached 2 scoring-eligible beatdowns."
-        }
-      ],
-      "scoring": {
-        "ironplainsPosts": 2,
-        "ironplainsQs": 0,
-        "coffeeterias": 2,
-        "coffeeteriaPoints": 4,
-        "differentIronplainsAos": 1,
-        "outsideIronplainsPosts": 0,
-        "outsideIronplainsQs": 0,
-        "ironplainsPassport": false,
-        "travelerBonus": false,
-        "shieldLockBonusPoints": 0,
-        "automaticVq": false,
-        "automaticFng": true,
-        "automaticFngSecondPost": true,
-        "automaticFngThreePostsInJuly": false,
-        "automaticIronSharpensIron": false,
-        "automaticKotterThreePostsInJuly": false,
-        "automaticWeaselShaker": false,
-        "lazarusAward": false,
-        "nantanChallengeWeeks": [],
-        "manualClaimPoints": 0
-      },
-      "flags": [
-        "normal AO inferred from July attendance",
-        "automatic FNG: first recorded post during challenge",
-        "automatic FNG 2nd post"
       ]
     },
     {
@@ -7118,7 +7128,7 @@
     {
       "teamId": "ao-49777",
       "teamName": "Little Egypt",
-      "totalPoints": 1013,
+      "totalPoints": 1060,
       "memberUserIds": [
         1218,
         12193,
@@ -7157,7 +7167,7 @@
     {
       "teamId": "ao-42990",
       "teamName": "Prost",
-      "totalPoints": 324,
+      "totalPoints": 357,
       "memberUserIds": [
         12039,
         23397,
