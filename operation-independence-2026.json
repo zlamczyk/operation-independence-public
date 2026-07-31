@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T14:02:18.523Z",
+  "generatedAt": "2026-07-31T15:01:37.159Z",
   "challenge": {
     "name": "Operation Independence",
     "subtitle": "F3 Ironplains Challenge",
@@ -6507,6 +6507,91 @@
       ]
     },
     {
+      "userId": 86179,
+      "displayName": "Derek Schulte",
+      "teamIds": [],
+      "normalAoOrgId": 46316,
+      "normalAoName": "The Pitch",
+      "totalPoints": 9,
+      "visitedPassportAos": [
+        {
+          "orgId": 46316,
+          "name": "The Pitch"
+        }
+      ],
+      "missingPassportAos": [
+        {
+          "orgId": 51314,
+          "name": "The Nest"
+        },
+        {
+          "orgId": 49951,
+          "name": "Firebox"
+        },
+        {
+          "orgId": 49777,
+          "name": "Little Egypt"
+        },
+        {
+          "orgId": 42990,
+          "name": "Prost"
+        },
+        {
+          "orgId": 49774,
+          "name": "Pumpkin Patch"
+        },
+        {
+          "orgId": 49521,
+          "name": "The Sandlot"
+        },
+        {
+          "orgId": 50424,
+          "name": "The Silo"
+        }
+      ],
+      "passportAoCount": 1,
+      "passportAoTotal": 8,
+      "pointBreakdown": [
+        {
+          "label": "Ironplains posts",
+          "points": 3,
+          "details": "3 posts x 1 point"
+        },
+        {
+          "label": "Coffeeteria",
+          "points": 6,
+          "details": "3 scoring-eligible attendances x 2 points"
+        }
+      ],
+      "scoring": {
+        "ironplainsPosts": 3,
+        "ironplainsQs": 0,
+        "coffeeterias": 3,
+        "coffeeteriaPoints": 6,
+        "preWorkoutAttendances": 0,
+        "preWorkoutAttendancePoints": 0,
+        "differentIronplainsAos": 1,
+        "outsideIronplainsPosts": 0,
+        "outsideIronplainsQs": 0,
+        "ironplainsPassport": false,
+        "travelerBonus": false,
+        "shieldLockBonusPoints": 0,
+        "automaticVq": false,
+        "automaticFng": false,
+        "automaticFngSecondPost": false,
+        "automaticFngThreePostsInJuly": false,
+        "automaticIronSharpensIron": false,
+        "automaticKotterThreePostsInJuly": false,
+        "automaticWeaselShaker": false,
+        "lazarusAward": false,
+        "nantanChallengeWeeks": [],
+        "manualClaimPoints": 0
+      },
+      "flags": [
+        "normal AO inferred from July attendance"
+      ]
+    },
+    {
       "userId": 85128,
       "displayName": "Poppins",
       "teamIds": [],
@@ -6709,91 +6794,6 @@
         {
           "orgId": 46316,
           "name": "The Pitch"
-        },
-        {
-          "orgId": 49521,
-          "name": "The Sandlot"
-        },
-        {
-          "orgId": 50424,
-          "name": "The Silo"
-        }
-      ],
-      "passportAoCount": 1,
-      "passportAoTotal": 8,
-      "pointBreakdown": [
-        {
-          "label": "Ironplains posts",
-          "points": 2,
-          "details": "2 posts x 1 point"
-        },
-        {
-          "label": "Coffeeteria",
-          "points": 4,
-          "details": "2 scoring-eligible attendances x 2 points"
-        }
-      ],
-      "scoring": {
-        "ironplainsPosts": 2,
-        "ironplainsQs": 0,
-        "coffeeterias": 2,
-        "coffeeteriaPoints": 4,
-        "preWorkoutAttendances": 0,
-        "preWorkoutAttendancePoints": 0,
-        "differentIronplainsAos": 1,
-        "outsideIronplainsPosts": 0,
-        "outsideIronplainsQs": 0,
-        "ironplainsPassport": false,
-        "travelerBonus": false,
-        "shieldLockBonusPoints": 0,
-        "automaticVq": false,
-        "automaticFng": false,
-        "automaticFngSecondPost": false,
-        "automaticFngThreePostsInJuly": false,
-        "automaticIronSharpensIron": false,
-        "automaticKotterThreePostsInJuly": false,
-        "automaticWeaselShaker": false,
-        "lazarusAward": false,
-        "nantanChallengeWeeks": [],
-        "manualClaimPoints": 0
-      },
-      "flags": [
-        "normal AO inferred from July attendance"
-      ]
-    },
-    {
-      "userId": 86179,
-      "displayName": "Derek Schulte",
-      "teamIds": [],
-      "normalAoOrgId": 46316,
-      "normalAoName": "The Pitch",
-      "totalPoints": 6,
-      "visitedPassportAos": [
-        {
-          "orgId": 46316,
-          "name": "The Pitch"
-        }
-      ],
-      "missingPassportAos": [
-        {
-          "orgId": 51314,
-          "name": "The Nest"
-        },
-        {
-          "orgId": 49951,
-          "name": "Firebox"
-        },
-        {
-          "orgId": 49777,
-          "name": "Little Egypt"
-        },
-        {
-          "orgId": 42990,
-          "name": "Prost"
-        },
-        {
-          "orgId": 49774,
-          "name": "Pumpkin Patch"
         },
         {
           "orgId": 49521,
@@ -7390,7 +7390,7 @@
     {
       "teamId": "ao-46316",
       "teamName": "The Pitch",
-      "totalPoints": 1314,
+      "totalPoints": 1317,
       "memberUserIds": [
         23172,
         30393,
